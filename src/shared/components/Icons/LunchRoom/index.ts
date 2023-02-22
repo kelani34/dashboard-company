@@ -1,0 +1,1 @@
+export { LunchRoomSvg } from './LunchRoom';

@@ -1,0 +1,4 @@
+.damageTypeList {
+  max-width: 400px;
+  flex-wrap: wrap;
+}

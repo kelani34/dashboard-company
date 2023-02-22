@@ -1,0 +1,1 @@
+export { PhotoShareSvg } from './PhotoShare';

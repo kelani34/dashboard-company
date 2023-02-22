@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  -webkit-box-shadow: 0 1px 18px rgba(122, 111, 252, 0.15);
+  box-shadow: 0 1px 18px rgba(122, 111, 252, 0.15);
+  transition: height 300ms;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  align-items: center;
+  width: 25%;
+}
+
+.buttonContainer {
+  margin-right: 24px;
+}
+
+.createProjectButton {
+  width: 160px;
+  height: 44px;
+  padding: 0;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.welcomeContainer {
+  display: flex;
+  min-width: 86px;
+  max-width: 120px;
+  margin-right: 12px;
+}
+
+.welcome {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo {
+  width: 22px;
+  height: 22px;
+}
+
+.accountBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  background-color: #d2cfda;
+}
+
+.supportIconContainer {
+  margin-right: 16px;
+}
+
+/*
+ * Media queries
+*/
+
+@media screen and (min-width: 991px) {
+  .hamburgerMenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .welcomeContainer {
+    display: none;
+  }
+
+  .container {
+    height: 50px;
+  }
+}

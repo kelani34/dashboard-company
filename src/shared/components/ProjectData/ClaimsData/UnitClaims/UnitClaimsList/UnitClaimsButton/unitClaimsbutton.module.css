@@ -1,0 +1,47 @@
+.claimsContent {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(154, 0, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 3px 6px rgba(142, 134, 163, 0.1);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  height: 56px;
+  text-align: left;
+  width: 100%;
+}
+
+.claimName {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d00e6;
+  padding-left: 6px;
+  padding-right: 8px;
+}
+
+.claimType {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d00e6;
+}
+
+.claimNumbers {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777185;
+  padding-left: 8px;
+}
+
+.claimsButtonIcon {
+  position: absolute;
+  right: 20px;
+}

@@ -1,0 +1,1 @@
+export { LinkOpenSvg } from './LinkOpen';

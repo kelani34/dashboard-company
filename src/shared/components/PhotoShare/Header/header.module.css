@@ -1,0 +1,63 @@
+.header {
+  background-color: #ffffff;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  padding: 1.2rem 1rem 0.81rem 0.9rem;
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.address {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.locationId {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777185;
+}
+.headerRight {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.imageWrapper {
+  height: 60px;
+}
+
+.icon {
+  transform: scale(0.7);
+  margin-top: -10px;
+}
+
+.logo {
+  object-fit: contain;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin-right: 16px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 1.5rem;
+    border-radius: 0px;
+  }
+  .address {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 0.25rem;
+  }
+  .locationId {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

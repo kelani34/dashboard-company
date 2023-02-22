@@ -1,0 +1,1 @@
+export { GymSvg } from "./Gym";

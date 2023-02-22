@@ -1,0 +1,1 @@
+export { CommercialSvg } from './Commercial';

@@ -1,0 +1,29 @@
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+  padding-bottom: 16px;
+}
+
+.details {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 11px;
+}
+
+.noDetails {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b3abc6;
+  padding-left: 11px;
+}

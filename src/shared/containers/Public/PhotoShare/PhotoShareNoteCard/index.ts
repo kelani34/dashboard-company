@@ -1,0 +1,1 @@
+export { PhotoShareNoteCard } from './PhotoShareNoteCard';

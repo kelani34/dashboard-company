@@ -1,0 +1,37 @@
+.companyText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777185;
+  /*margin-top: 11px;*/
+  margin-bottom: 0;
+}
+
+.maskInput {
+  width: 100%;
+  outline: none !important;
+}
+
+.deleteButton {
+  margin-bottom: 16px;
+}
+
+.countrySelector > {
+  width: 90px !important;
+}
+
+.countrySelectorError {
+  margin-bottom: 21px;
+}
+
+.phoneInputs {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.phoneInputContainer {
+  margin-left: 16px;
+}

@@ -1,0 +1,1 @@
+export { DamagedMaterialsView } from './DamagedMaterialsView';

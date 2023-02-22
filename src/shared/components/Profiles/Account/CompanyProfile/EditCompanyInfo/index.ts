@@ -1,0 +1,1 @@
+export { EditCompanyInfo } from './EditCompanyInfo';

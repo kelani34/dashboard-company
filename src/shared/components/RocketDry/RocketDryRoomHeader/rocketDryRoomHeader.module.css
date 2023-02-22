@@ -1,0 +1,17 @@
+.rocketDryRoomHeader {
+  width: 100%;
+  margin-top: 24px;
+  position: relative;
+}
+.titleArea {
+  flex: 3;
+}
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6d00e6;
+  margin-left: 8px;
+}

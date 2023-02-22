@@ -1,0 +1,1 @@
+export { NoCompany } from "./NoCompany";

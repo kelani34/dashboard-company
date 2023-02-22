@@ -1,0 +1,1 @@
+export { CubePlusLgSvg } from './CubePlusLarge';

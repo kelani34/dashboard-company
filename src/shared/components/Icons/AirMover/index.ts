@@ -1,0 +1,1 @@
+export { AirMoverSvg } from './AirMover';

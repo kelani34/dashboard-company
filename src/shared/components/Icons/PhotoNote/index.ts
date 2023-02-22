@@ -1,0 +1,1 @@
+export { PhotoNoteSvg } from './PhotoNote';

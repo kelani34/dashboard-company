@@ -1,0 +1,79 @@
+.employeeDirectoryBase {
+    margin: 20px 0;
+}
+
+.errorMessage {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #E82828;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777185;
+    margin-bottom: 24px;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.buttonContainer button {
+    width: 240px;
+}
+
+.noEmployeesContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777185;
+}
+
+.noMatchContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4E5FF;
+    margin-bottom: 10px;
+}
+
+.noEmployeesText {
+    margin-bottom: 0;
+}
+
+.searchText {
+    font-weight: 600;
+    color: #000000;
+}

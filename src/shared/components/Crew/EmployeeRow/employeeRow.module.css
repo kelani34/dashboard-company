@@ -1,0 +1,62 @@
+.memberRowBase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 24px 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e8e7ed;
+}
+
+.memberDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #d2cfda;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 0 16px;
+}
+
+.checkBox {
+  width: 32px;
+  height: 32px;
+  order: 1;
+  z-index: 2;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.roleTags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 16px;
+}

@@ -1,0 +1,23 @@
+.damagedMaterialsPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.damagedMaterialsPlaceholder p {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #B3ABC6;
+    margin-bottom: 16px;
+}
+
+.icon {
+    align-self: center;
+    cursor: none !important;
+}

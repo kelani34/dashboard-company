@@ -1,0 +1,13 @@
+.pillBadge {
+  background: #dff1fe;
+  color: #000000;
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 16px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}

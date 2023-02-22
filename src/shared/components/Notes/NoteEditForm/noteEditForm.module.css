@@ -1,0 +1,40 @@
+.noteEditFormBase {
+    width: 100%;
+}
+
+.validationBackground {
+    padding-top: 0;
+}
+
+.textBox {
+    padding: 0!important;
+    font-weight: normal;
+}
+
+.buttons {
+    width: 60px;
+    height: 40px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cancelButton {
+    margin-right: 16px;
+    color: #5B476B;
+}
+
+.charCount {
+    width: 100%;
+    margin-top: 4px;
+
+    font-weight: 500;
+    font-size: 12.003px;
+    line-height: 20px;
+
+    color: #5b476b;
+
+    text-align: right;
+}

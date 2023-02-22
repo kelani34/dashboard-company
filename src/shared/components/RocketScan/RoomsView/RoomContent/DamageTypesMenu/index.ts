@@ -1,0 +1,1 @@
+export { DamageTypesMenu } from './DamageTypesMenu';

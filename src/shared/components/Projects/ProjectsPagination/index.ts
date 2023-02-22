@@ -1,0 +1,1 @@
+export { ProjectsPagination } from './ProjectsPagination';

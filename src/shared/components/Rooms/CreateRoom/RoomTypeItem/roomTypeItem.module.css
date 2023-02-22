@@ -1,0 +1,32 @@
+.listItemText {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding: 7px 0 7px 18px;
+  border: 0;
+  border-bottom: 1px solid #e8e7ed;
+  transition: 0.2s ease-in-out;
+  height: 56px;
+}
+
+.listItemText:visited,
+.listItemText:active,
+.listItemText:hover,
+.listItemText:focus {
+  background-color: transparent !important;
+  color: #6d00e6;
+  border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+  transition: 0.2s ease-in-out;
+}
+
+.iconWrapper {
+  transform: scale(0.6);
+  transform-origin: left;
+  width: 50px;
+}

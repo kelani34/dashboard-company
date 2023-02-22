@@ -1,0 +1,28 @@
+.progressBarBase {
+  height: 3px;
+  width: 100%;
+  border-radius: 0;
+  background-color: #e8e7ed;
+}
+
+.progressBar {
+  border-radius: 0;
+  background-color: #9a00ff;
+}
+
+.progressAnimation {
+  transition: width 1s;
+}
+.progressBarHideTransistion {
+  transition: opacity 1s linear, z-index 1s step-start;
+  display: block;
+  width: 100%;
+}
+.progressBarHide {
+  opacity: 0;
+  z-index: -5;
+  transition-timing-function: linear, step-end, step-end;
+}
+.maxWidth {
+  width: 100%;
+}

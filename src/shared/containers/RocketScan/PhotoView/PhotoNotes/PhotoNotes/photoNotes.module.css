@@ -1,0 +1,34 @@
+.photoNotesBase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 8px);
+  max-height: calc(100vh - 8px);
+  width: 100%;
+  position: relative;
+  padding-top: 16px;
+}
+
+.photoNotesSection {
+  overflow-x: auto;
+  position: relative;
+  flex: 12;
+}
+
+.photoNotesList {
+  padding: 0 21px;
+}
+
+.createNoteForm {
+  background-color: #ffffff;
+  padding: 16px 16px 24px;
+  flex: 1;
+  box-shadow: 0 -5px 5px -5px rgba(114, 44, 243, 0.2);
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.createNoteForm > form {
+  margin-top: 0 !important;
+}

@@ -1,0 +1,1 @@
+export { WelcomeAboardSvg } from "./WelcomeAboard";

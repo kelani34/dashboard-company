@@ -1,0 +1,18 @@
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #5b476b;
+  margin-bottom: 16px;
+  padding: 0 0 0 8px !important;
+}
+.notesWrapper {
+  overflow-x: auto;
+}
+.notesList {
+  overflow-x: auto;
+  position: relative;
+  padding: 0 8px;
+}

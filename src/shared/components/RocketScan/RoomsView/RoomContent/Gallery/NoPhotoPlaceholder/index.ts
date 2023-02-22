@@ -1,0 +1,1 @@
+export { NoPhotoPlaceholder } from './NoPhotoPlaceholder';

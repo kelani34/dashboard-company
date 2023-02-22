@@ -1,0 +1,16 @@
+.customFormWrapper form {
+    margin-top: 24px;
+    border: 1px solid #d2cfda;
+    border-radius: 8px;
+    height: 48px;
+    padding: 0 16px 0 18px;
+    box-shadow: 0 4px 6px rgba(142, 134, 163, 0.08);
+}
+
+.errorBackground form {
+    background-color: #FFF0F0;
+}
+
+.errorMessages {
+    margin-top: 5px!important;
+}

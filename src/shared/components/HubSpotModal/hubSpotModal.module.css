@@ -1,0 +1,52 @@
+.modal {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    text-align: center;
+    background: white;
+}
+
+.modalDialog {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modalContent {
+    height: 100%;
+    width: 100%;
+    border: unset;
+    border-radius: unset;
+}
+
+.modalBody {
+    padding-top: 40px;
+}
+
+.importantText {
+    padding-bottom: 25px;
+
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.image {
+    padding-top: 25px;
+    width: 150px;
+}
+
+.text {
+    padding-top: 25px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #777185;
+}
+
+.button {
+    margin-top: 1rem;
+}

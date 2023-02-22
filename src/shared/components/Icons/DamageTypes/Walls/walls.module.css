@@ -1,0 +1,4 @@
+.wallsBase {
+  cursor: pointer;
+  pointer-events: none;
+}

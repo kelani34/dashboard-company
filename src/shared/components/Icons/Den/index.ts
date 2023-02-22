@@ -1,0 +1,1 @@
+export { DenSvg } from "./Den";

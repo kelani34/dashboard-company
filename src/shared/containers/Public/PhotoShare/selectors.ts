@@ -1,0 +1,13 @@
+export const photoShareInfoSelector = ({ photoShare: { info } }) => info;
+export const photoShareErrorSelector = ({ photoShare: { error: value = false } }) => value;
+export const uuidSelector = ({ photoShare: { uuid: value } }) => value;
+export const photoShareUnitsSelector = ({ photoShare: { units: value = [] } }) => value;
+export const photoShareUnitRoomsSelector = ({ photoShare: { unitRoomsWithPhotos: value = [] } }) => value;
+export const photoShareFloorsSelector = ({ photoShare: { floors: value = [] } }) => value;
+export const photoShareFloorRoomsSelector = ({ photoShare: { floorRoomsWithPhotos: value = [] } }) => value;
+export const photoShareSelectedTabSelector = ({ photoShare: { selectedTab: value = '' } }) => value;
+export const fetchingRoomPhotosSelector = ({ photoShare: { fetchingRoomPhotos: value = true } }) => value;
+export const fetchingInfoSelector = ({ photoShare: { fetchingInfo: value = true } }) => value;
+export const propertyTypeSelector = ({ photoShare: { propertyType: value = 'single unit' } }) => value;
+export const unitTypeSelector = ({ photoShare: { unitType: value = '' } }) => value;
+export const projectAlbumsSelector = ({ photoShare: { projectAlbums: value = [] } }) => value;

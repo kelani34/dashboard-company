@@ -1,0 +1,1 @@
+export { FloorTile } from "./FloorTile";

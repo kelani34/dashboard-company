@@ -1,0 +1,24 @@
+.header {
+  height: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #777185;
+  border-bottom: 1px solid #d2cfda;
+}
+.editDataButton,
+.editDataButton:hover {
+  font-weight: 600;
+  font-size: 16px;
+  color: #5b476b;
+  line-height: 24px;
+  width: 94px;
+  border: 1px solid #5b476b;
+  border-radius: 5px;
+}
+.editDataButton:focus,
+.editDataButton:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}

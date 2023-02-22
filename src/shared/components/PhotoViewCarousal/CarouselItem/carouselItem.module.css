@@ -1,0 +1,31 @@
+.carouselItem {
+  height: 40%;
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.carouselItem.irExists {
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+
+.carouselItem img {
+  display: block;
+  max-width: 100%;
+  max-height: 65vh;
+}
+
+.carouselItem.irExists img {
+  max-width: 49%;
+}
+.carouselItem.irExists img:first-child {
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .carouselItem img {
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+export { ExteriorDamageSvg } from './ExteriorDamage';

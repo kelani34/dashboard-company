@@ -1,0 +1,10 @@
+export { BasementSvg } from './Basement';
+export { CompassSvg } from './Compass';
+export { DeckSvg } from './Deck';
+export { GarageSvg } from './Garage';
+export { PatioSvg } from './Patio';
+export { PlazaSvg } from './Plaza';
+export { PoolSvg } from './Pool';
+export { RoofSvg } from './Roof';
+export { ShopSvg } from './Shop';
+export { UtilityRoomSvg } from './UtilityRoom';

@@ -1,0 +1,1 @@
+export { HallwaySvg } from "./Hallway";

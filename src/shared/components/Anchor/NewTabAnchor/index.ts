@@ -1,0 +1,1 @@
+export { NewTabAnchor } from './NewTabAnchor';

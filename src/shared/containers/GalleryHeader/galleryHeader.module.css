@@ -1,0 +1,26 @@
+.headerWrapper {
+  border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+}
+
+.imageWrapper {
+  transform: scale(0.55);
+  transform-origin: left;
+  width: 35px;
+  height: 35px;
+}
+
+.roomName {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6d00e6;
+  margin: 0;
+}
+
+.menuWrapper {
+  padding: 3px 1px 5px;
+  background-color: #e8e7ed;
+  border-radius: 25px;
+}

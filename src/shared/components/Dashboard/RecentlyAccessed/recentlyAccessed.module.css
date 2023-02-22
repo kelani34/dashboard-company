@@ -1,0 +1,39 @@
+.cardBase {
+    background-color: #ffffff;
+    box-shadow: 0 1px 18px rgba(122, 111, 252, 0.15);
+    height: calc(100vh - 95px);
+    padding: 25px;
+}
+
+.title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.anchor {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #777185;
+}
+
+.p {
+    margin-top: 22px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777185;
+}
+
+.createProjectButton {
+    margin-top: 45px;
+}

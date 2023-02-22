@@ -1,0 +1,1 @@
+export { EyeSvg } from './Eye';

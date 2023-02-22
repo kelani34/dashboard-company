@@ -1,0 +1,23 @@
+.thSpan {
+    display: block;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D00E6;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.sortIcon {
+    margin-left: 10px;
+}
+
+.canSort {
+    cursor: default !important;
+}
+
+.action {
+    text-align: center;
+}

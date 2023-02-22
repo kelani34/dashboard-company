@@ -1,0 +1,1 @@
+export { ModalCloseSvg } from "./ModalClose";

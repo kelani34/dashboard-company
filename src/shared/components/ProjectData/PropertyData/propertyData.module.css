@@ -1,0 +1,45 @@
+.propertyDataBase {
+  width: 100%;
+  max-width: 600px;
+  min-height: 380px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  padding-bottom: 16px;
+  margin-bottom: 48px;
+}
+.subHeader {
+  height: 32px;
+  margin: 16px 0;
+  color: #5b476b;
+}
+.mainTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.secondaryTitle {
+  font-size: 14px;
+  line-height: 21px;
+}
+.projectInfo {
+  height: 62px;
+  padding: 0 24px;
+  background: #dff1fe;
+  border-radius: 8px;
+  color: #5b476b;
+}
+
+.projectUid {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #5b476b;
+}
+.dateCreated {
+  font-size: 16px;
+  line-height: 24px;
+}
+.propertyDataContent {
+  margin-top: 16px;
+}

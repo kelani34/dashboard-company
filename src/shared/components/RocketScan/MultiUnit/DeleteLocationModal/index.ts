@@ -1,0 +1,1 @@
+export { DeleteLocationModal } from './DeleteLocationModal';

@@ -1,0 +1,1 @@
+export { DryingMatSvg } from './DryingMat';

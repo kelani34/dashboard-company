@@ -1,0 +1,1 @@
+export { NotFoundSvg } from './NotFound';

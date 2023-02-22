@@ -1,0 +1,1 @@
+export { NoRecordingsPlaceholder } from './NoRecordingsPlaceholder';

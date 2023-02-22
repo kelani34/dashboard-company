@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.count {
+    width: 80px;
+    height: 40px;
+
+    border-radius: unset;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+}
+
+.unitsDropdown {
+    width: 100px;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.actionsDropdown {
+    width: 150px;
+    margin-top: -1px;
+    margin-left: 10px;
+}

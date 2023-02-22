@@ -1,0 +1,1 @@
+export { CompanyArrowSvg } from './CompanyArrow';

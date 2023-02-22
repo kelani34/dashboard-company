@@ -1,0 +1,1 @@
+export { PatioSvg } from './Patio';

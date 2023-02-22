@@ -1,0 +1,25 @@
+.noUnitClaimsContainer {
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  color: #b3abc6;
+  margin-bottom: 18px;
+}
+
+.noClaims {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.noContent {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.addButton {
+  width: 100%;
+}

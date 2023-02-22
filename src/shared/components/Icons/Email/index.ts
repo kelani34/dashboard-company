@@ -1,0 +1,1 @@
+export { EmailSvg } from './Email';

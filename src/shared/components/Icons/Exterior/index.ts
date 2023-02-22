@@ -1,0 +1,1 @@
+export { ExteriorSvg } from './Exterior';

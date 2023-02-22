@@ -1,0 +1,61 @@
+/* Bootstrap override */
+
+/*
+    Checked
+        Circle:
+            class:  .form-check-input:checked
+            Background-image on the input.
+            height:  need to set the height to match design.
+            width:  same
+        
+        Background-Colour
+            class:  form-check-input:checked
+            Put in our gradient
+            bordercolour:??? change or remove
+
+    Unchecked
+    
+    
+    Highlighted light blue circle  override with unset
+    class:  .form-check-input:focus {
+            border-color: unset !important;
+            outline: unset !important;
+            box-shadow:unset !important;
+        }
+
+        box-shadow: 0px 3px 1px 0px #0000001A;
+
+box-shadow: 0px 1px 1px 0px #00000029;
+
+box-shadow: 0px 3px 8px 0px #00000026;
+
+    
+*/
+.form-switch-override,
+.form-check-override {
+  height: 32px !important;
+  width: 50px !important;
+  border-radius: 16px !important;
+}
+.form-check-input-override {
+  background-color: #d2cfda !important;
+  border-color: #d2cfda !important;
+  border: 1px solid #d2cfda !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+  background-origin: border-box !important;
+  box-shadow: inset 0 0 5px 2px #0000001a !important; /* mark the inset */
+  background-origin: padding-box;
+}
+.form-check-override:checked {
+  background-color: #9601ff !important;
+  border: 1px solid #9601ff !important;
+  background-origin: border-box !important;
+  box-shadow: inset 0 0 5px 2px #0000001a !important; /* mark the inset */
+  background-origin: padding-box;
+}
+.form-check-override:focus {
+  border-color: unset !important;
+  border: unset !important;
+  outline: unset !important;
+  box-shadow: unset !important;
+}

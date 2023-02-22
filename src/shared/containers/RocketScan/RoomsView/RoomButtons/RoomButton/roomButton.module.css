@@ -1,0 +1,35 @@
+.roomButtonWrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  height: 50px;
+  width: 256px;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.iconContent {
+  position: relative;
+  left: 0px;
+  margin-right: 18px;
+}
+
+.roomButtonWrapper:focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+}
+
+.text {
+  display: block;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: auto;
+}
+
+.content {
+  display: inline-flex;
+}

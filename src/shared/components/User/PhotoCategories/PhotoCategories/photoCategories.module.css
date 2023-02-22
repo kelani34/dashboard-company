@@ -1,0 +1,49 @@
+.photoCategories {
+    padding: 24px;
+    border: 1px solid #d2cfda;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 48px 24px 72px 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E0D47;
+}
+
+.description {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E0D47;
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100px;
+}
+
+.categories p {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E0D47;
+}

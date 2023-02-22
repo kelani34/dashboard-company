@@ -1,0 +1,33 @@
+.subHeader {
+  height: 32px;
+  margin: 16px 0;
+  color: #5b476b;
+}
+.mainTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.secondaryTitle {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.damageTypeButtons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 79px;
+  height: 93px;
+
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 24px !important;
+}
+
+.selected {
+  background-color: #f4e5ff;
+}

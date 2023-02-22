@@ -1,0 +1,34 @@
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  border: 0;
+  border-bottom: 1px solid #e8e7ed;
+  transition: 0.2s ease-in-out;
+  min-height: 56px;
+  padding: 0 37px 0 0;
+}
+
+.listItem:hover,
+.listItem:focus {
+  background-color: transparent !important;
+  color: #6d00e6;
+  border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+  transition: 0.2s ease-in-out;
+}
+
+.iconWrapper {
+  padding-right: 8px;
+}
+
+.listItemText {
+  padding: 5px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}

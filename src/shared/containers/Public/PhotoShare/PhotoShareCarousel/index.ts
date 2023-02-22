@@ -1,0 +1,1 @@
+export { PhotoShareCarousel } from './PhotoShareCarousel';

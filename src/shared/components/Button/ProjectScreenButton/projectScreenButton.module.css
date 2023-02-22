@@ -1,0 +1,112 @@
+/* Plus Button */
+
+.btnBase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(135deg, #9601ff 0%, #6d00e6 100%);
+  transition: color 300ms ease-out, background 300ms ease-out;
+  width: 56px;
+  height: 56px;
+  padding: 0rem !important;
+}
+
+.btnBase:hover,
+.btnBase:active {
+  color: #fff !important;
+  background: linear-gradient(135deg, #6d00e6 0%, #6d00e6 100%);
+}
+
+.btnIcon {
+  transform-origin: center;
+  transform: scale(2);
+}
+
+.plusButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outlined {
+  color: #9a00ff;
+  background: linear-gradient(0, transparent 0%, transparent 100%);
+}
+
+.btn-important {
+  border-radius: 3px !important;
+}
+
+/* Modal */
+
+.modalOverride {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modalDialogOverride {
+  background-color: unset !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  margin: 0rem !important;
+}
+
+.modalContentOverride {
+  background-color: unset !important;
+  border: unset !important;
+}
+
+.modalLinkOverride {
+  border: none !important;
+  background-color: unset !important;
+  padding-top: 24px;
+}
+
+.linkText {
+  text-decoration: none !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #000000 !important;
+}
+
+.iconContainer {
+  background-color: #f4e5ff;
+  margin-left: 24px;
+  border: 0.5px solid #d2cfda;
+  box-shadow: 0px 3px 8px rgba(142, 134, 163, 0.25);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding: 0rem !important;
+}
+
+.listIcon {
+  transform-origin: center;
+  transform: scale(0.8);
+}
+
+.closeButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -8px;
+}
+
+.closeButtonIcon {
+  transform-origin: center;
+  transform: rotate(45deg) scale(2);
+}

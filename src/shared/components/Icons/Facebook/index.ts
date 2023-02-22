@@ -1,0 +1,1 @@
+export { FacebookSvg } from './Facebook';

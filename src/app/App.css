@@ -1,0 +1,28 @@
+/* css reset to remove the scrollbar,until it's needed */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #000;
+  font-family: sans-serif;
+  border: unset;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.modal-backdrop {
+  z-index: 1000000000;
+}
+.modal {
+  z-index: 1000000001;
+}

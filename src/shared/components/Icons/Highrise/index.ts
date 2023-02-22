@@ -1,0 +1,1 @@
+export { HighriseSvg } from './Highrise';

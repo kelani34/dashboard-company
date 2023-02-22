@@ -1,0 +1,1 @@
+export { InspectionSvg } from './Inspection';

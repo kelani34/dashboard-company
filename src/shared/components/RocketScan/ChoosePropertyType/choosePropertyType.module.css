@@ -1,0 +1,20 @@
+.choosePropertyTypeBase {
+    margin-top: 116px;
+}
+
+.title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5B476B;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.content {
+    width: 820px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,27 @@
+.roomsBase {
+    width: 100%;
+    position: relative;
+    padding-right: 10px;
+    overflow-y: auto;
+    max-height: 1400px;
+    scroll-behavior: smooth;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-height: 1080px) {
+    .roomsBase {
+        max-height: 1800px;
+    }
+}
+
+@media screen and (min-height: 2160px) {
+    .roomsBase {
+        max-height: 2600px;
+    }
+}
+
+@media screen and (min-height: 4196px) {
+    .roomsBase {
+        max-height: 3600px;
+    }
+}

@@ -1,0 +1,66 @@
+.allNotesAccordion {
+  width: 100%;
+  margin-top: 24px;
+  position: relative;
+}
+.allNotesAccordion .itemWrapper {
+  border-radius: 16px;
+  border: 1px solid #d2cfda;
+}
+
+.itemWrapperOpened {
+  border: 2px solid rgba(154, 0, 255, 0.5) !important;
+}
+
+.notesHeader {
+  height: 68px;
+  margin: 0 24px;
+  border-bottom: 1px solid transparent;
+}
+.headerOpen {
+  border-color: #e8e7ed;
+}
+.titleArea {
+  flex: 3;
+}
+
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6d00e6;
+  margin-left: 8px;
+}
+.noteCountText {
+  color: #777185;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 18px;
+}
+.allNotesAccordion .buttonOverride {
+  max-width: 48px;
+  height: 40px;
+  padding: 1rem;
+  border-radius: 0 16px 16px 0 !important;
+}
+.allNotesAccordion .buttonOverride::after {
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+}
+.allNotesAccordion .openState:not(.closed)::after {
+  transform: rotate(-180deg);
+}
+.allNotesAccordion .openState:focus,
+.buttonOverride:focus {
+  box-shadow: none !important;
+}
+.bodyOverride {
+  padding: 24px 24px 20px;
+}
+.loadMoreComments > * {
+  width: 100%;
+}

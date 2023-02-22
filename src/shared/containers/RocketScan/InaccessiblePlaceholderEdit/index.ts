@@ -1,0 +1,1 @@
+export { InaccessiblePlaceholderEdit } from './InaccessiblePlaceholderEdit';

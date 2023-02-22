@@ -1,0 +1,1 @@
+export { RoofingSvg } from './Roofing';

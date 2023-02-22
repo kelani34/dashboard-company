@@ -1,0 +1,19 @@
+.photoBase {
+  width: 98%;
+  height: auto;
+  max-width: 107px !important;
+  max-height: 107px !important;
+  border-radius: 8px;
+  margin: 0 3px 3px 0;
+}
+@media screen and (min-width: 376px) {
+  .photoBase {
+    margin: 6px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .photoBase {
+    max-width: 140px !important;
+    max-height: 140px !important;
+  }
+}

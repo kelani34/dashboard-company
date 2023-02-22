@@ -1,0 +1,46 @@
+.projectOptionsButton {
+    margin-top: 6px;
+    margin-right: 6px;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #9a00ff;
+    border-radius: 50%;
+  }
+  .projectOptionsWrapper {
+    width: 203px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+    right: 60px;
+    padding: 0;
+  }
+  .projectOption {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #ffffff;
+    color: #777185;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #d2cfda;
+    border-radius: 0;
+    padding: 0.6em 1.15em 0.6em 1.15em;
+    text-align: left;
+  }
+  .projectOption:last-child {
+    border-bottom: none;
+    border-radius: 0 0 5px 5px;
+  }
+  .projectOption:first-child {
+    border-top: none;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .icon {
+      margin-left: -3px;
+      margin-top: -6px;
+  }

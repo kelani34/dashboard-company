@@ -1,0 +1,1 @@
+export { ReceptionSvg } from './Reception';

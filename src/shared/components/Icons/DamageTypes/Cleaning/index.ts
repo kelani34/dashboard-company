@@ -1,0 +1,1 @@
+export { CleaningSvg } from './Cleaning';

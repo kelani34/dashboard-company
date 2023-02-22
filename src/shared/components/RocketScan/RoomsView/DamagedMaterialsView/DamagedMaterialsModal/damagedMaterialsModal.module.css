@@ -1,0 +1,25 @@
+.modalTitle {
+    font-family: IBM Plex Sans;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .text {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .buttonRow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+  width: 180px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

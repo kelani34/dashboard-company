@@ -1,0 +1,21 @@
+.noEquipmentContent {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    border: 1px dotted #d2cfda;
+    background-color: #ffffff;
+    border-radius: 16px;
+  }
+  
+  .noEquipmentText {
+    width: 321px;
+    text-align: center;
+  
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b3abc6;
+  }
+  

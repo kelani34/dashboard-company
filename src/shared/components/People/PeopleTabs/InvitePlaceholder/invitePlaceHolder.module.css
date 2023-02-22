@@ -1,0 +1,31 @@
+.placeHolderWrapper {
+    height: 700px;
+    width: 100%;
+}
+
+.placeHolderContainer {
+    height: auto;
+    width: 327px;
+    padding: 10px 15px;
+}
+.peopleIcon {
+    margin-bottom: 0.5em;
+}
+.peopleIcon svg {
+    transform: scale(0.7);
+}
+.text {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777185;
+}
+.buttonInvite {
+    font-weight: 500;
+    width: 220px;
+    border-radius: 25px;
+    margin-top: 1.7em;
+}

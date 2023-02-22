@@ -1,0 +1,7 @@
+.photoBase {
+  width: 107px !important;
+  height: 107px !important;
+  border-radius: 8px;
+  margin: 0 3px 3px 0;
+  cursor: unset;
+}

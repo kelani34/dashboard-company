@@ -1,0 +1,94 @@
+.projectsTabWrapper {
+  background-color: #ffffff;
+}
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 16px;
+  line-height: 24px;
+}
+.tabs {
+  border: none;
+}
+.active-Tab,
+.active-Tab:hover {
+  color: #ffffff !important;
+  font-weight: 600;
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(316.14deg, #6d00e6 1.84%, #9a00ff 96.25%) !important;
+}
+.active-Tab::after {
+  content: attr(data-text);
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
+  font-weight: 600 !important;
+}
+.icon-active,
+.icon-inactive {
+  margin-right: 1em;
+}
+.icon-active path {
+  fill: #9a00ff;
+}
+
+.icon-inactive path {
+  fill: #fff;
+}
+.icon-phone {
+  padding-bottom: 0.265em;
+}
+
+.flexTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 140px;
+}
+
+.filterButtonContainer {
+  margin-top: 12px;
+  margin-right: 24px;
+  width: 55px;
+  height: 16px;
+}
+
+.filterButton {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #9A00FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.searchContainer {
+  margin-top: 24px;
+  margin-right: 36px;
+}
+
+.filterButton:hover, .filterButton:focus {
+  color: #9A00FF;
+}
+
+.filterIcon {
+  margin-left: 5px;
+}

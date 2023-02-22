@@ -1,0 +1,59 @@
+.modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.modalDialog {
+  width: 648px;
+  max-width: unset !important;
+}
+
+.modalHeader {
+  padding: 34px 0 12px;
+  margin: 0 1rem;
+  border-bottom: 1px solid #e8e7ed;
+}
+
+.modalContent {
+  min-height: 734px;
+}
+
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b476b;
+}
+
+@media screen and (max-width: 768px) {
+  .modalContent {
+    min-height: 600px;
+  }
+
+  .modalTitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modalContent {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .modalDialog {
+    margin-top: 330px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .modalDialog {
+    margin-top: 400px;
+  }
+}

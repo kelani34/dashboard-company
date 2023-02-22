@@ -1,0 +1,16 @@
+.image {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 50px;
+  text-align: center;
+
+  color: #777185;
+}

@@ -1,0 +1,29 @@
+.employeesContent {
+  width: 100%;
+  min-height: 700px;
+  padding: 24px;
+  position: relative;
+}
+.contentHeader {
+  width: 100%;
+  height: 46px;
+  margin-bottom: 30px;
+}
+.contentHeader h2 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0;
+}
+
+.inviteButton {
+  background: #ffffff;
+  color: #9a00ff;
+  font-weight: 500;
+  width: 160px;
+  border-radius: 25px;
+  margin-left: 2.4rem;
+}

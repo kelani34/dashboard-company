@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    width: 100% !important;
+    padding: .75rem 0;
+    border-radius: 8px;
+    margin: 6px;
+    border: 2px solid rgba(0,0,0,.125);
+    background: #F3F3F6;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    position: relative;
+    margin-left: 2rem;
+}
+
+.title {
+    margin-top: 5px;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+}

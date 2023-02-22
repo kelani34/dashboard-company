@@ -1,0 +1,105 @@
+.container {
+  width: 246px;
+  height: 230px;
+  background: #ffffff;
+  border: 1px solid #e8e7ed;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 16px;
+  margin-bottom: 25px;
+  padding: 16px;
+}
+
+.container:hover {
+  border: 1px solid rgba(154, 0, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 6px 12px rgba(142, 134, 163, 0.2);
+  border-radius: 5px;
+}
+
+.name {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 12px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.body {
+  padding-top: 18px;
+}
+
+.email,
+.phone {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777185;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.email a,
+.phone a {
+  justify-content: flex-start !important;
+  color: #777185;
+}
+
+.email a > span:first-child,
+.phone a > span:first-child {
+  width: 22px;
+  height: 22px;
+  padding: 0 !important;
+}
+
+.email a > span:nth-child(2),
+.phone a > span:nth-child(2) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 13px !important;
+}
+.email a > span:nth-child(2) {
+  position: relative;
+  overflow: hidden;
+}
+.email a > span:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 24px;
+  width: 60px;
+  background-image: -webkit-linear-gradient(to left, #ffffff, transparent);
+  background-image: linear-gradient(to left, #ffffff, transparent);
+}
+
+.email a {
+  margin-bottom: 18px;
+}
+
+.email a > span:first-child svg,
+.phone a > span:first-child svg {
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+
+.email a > span:first-child svg path {
+  stroke-width: 1;
+}
+
+.roleTag {
+  margin-top: 14px;
+  margin-right: 5px;
+}

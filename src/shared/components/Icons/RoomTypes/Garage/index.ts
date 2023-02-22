@@ -1,0 +1,1 @@
+export { GarageSvg } from './Garage';

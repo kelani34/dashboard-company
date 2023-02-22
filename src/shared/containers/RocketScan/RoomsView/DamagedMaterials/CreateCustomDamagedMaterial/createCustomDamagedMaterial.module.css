@@ -1,0 +1,8 @@
+.errorBackground form {
+    background-color: #FFF0F0;
+    border: 1px solid #ff8a8a;
+}
+
+.errorMessages {
+    margin-top: 5px!important;
+}

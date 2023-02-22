@@ -1,0 +1,1 @@
+export { LogoIconSvg } from './LogoIcon';

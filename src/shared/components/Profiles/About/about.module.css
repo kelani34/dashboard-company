@@ -1,0 +1,132 @@
+.container {
+  position: relative;
+  height: 800px;
+  max-height: 1124px;
+  background-image: url(https://storage.rocketplantech.com/img/about_background.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+
+.header {
+  display: inline-flex;
+}
+
+.logo {
+  width: 310px;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.version {
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-left: 16px;
+  padding-top: 58px;
+}
+
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  width: 702px;
+  margin-left: 25px;
+  margin-top: 16.98px;
+}
+
+.rocketLink {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #9a00ff;
+  padding-top: 8px;
+  padding-left: 24px;
+}
+
+.termsLinkBox {
+  width: 327px;
+  border-bottom: 1px solid #e8e7ed;
+  margin-left: 25px;
+  padding-top: 44px;
+}
+
+.termsLinkBox a {
+  text-decoration: none;
+}
+
+.terms,
+.termsLinkIcon {
+  display: inline-flex;
+}
+
+.terms {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #5b476b;
+}
+
+.termsLinkIcon {
+  margin-left: 150px;
+  margin-bottom: 15px;
+}
+
+.policyLinkBox {
+  width: 327px;
+  border-bottom: 1px solid #e8e7ed;
+  margin-left: 25px;
+  padding-top: 16px;
+}
+
+.policyLinkBox a {
+  text-decoration: none;
+}
+
+.policy,
+.policyLinkIcon {
+  display: inline-flex;
+}
+
+.policyLinkIcon {
+  margin-left: 207px;
+  margin-bottom: 15px;
+}
+
+.policy {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #5b476b;
+}
+
+.copyright {
+  position: absolute;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  bottom: 0px;
+  margin: unset;
+}

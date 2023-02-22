@@ -1,0 +1,38 @@
+.crewContent {
+  width: 100%;
+  padding: 0 0 24px;
+  position: relative;
+}
+.contentHeader h2 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0;
+}
+.addCrewButton {
+  background: #ffffff;
+  color: #9a00ff;
+  font-weight: 500;
+  width: 244px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.addCrewButton:focus {
+  box-shadow: none;
+}
+.userNameArea {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777185;
+  margin-left: 10px;
+}
+.currentUser {
+  align-self: flex-start;
+  padding: 30px;
+}

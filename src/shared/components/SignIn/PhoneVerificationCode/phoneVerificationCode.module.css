@@ -1,0 +1,164 @@
+.inputGroupBase {
+  width: 222px;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  margin-top: 26px;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+}
+
+.validateField {
+  background-image: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-size: unset !important;
+  border-radius: 5px;
+  padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
+  padding-right: 0.75rem !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px;
+  color: #000000 !important;
+  padding-left: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #d2cfda;
+  background: #ffffff;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.validateField::-webkit-outer-spin-button,
+.validateField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.validateField {
+  -moz-appearance: textfield;
+}
+
+.validField:focus {
+  border: 1px solid #9a00ff;
+}
+
+.invalidField {
+  background-color: #fff0f0;
+  border-bottom: 1px solid #e82828 !important;
+}
+
+.validateField::placeholder {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* Placeholder text color */
+  color: #b3abc6;
+  /* opacity: 1;  */
+  /* Firefox */
+}
+
+.validateField:focus,
+.validateField:active {
+  box-shadow: unset !important;
+}
+
+.invalidField.validateField:focus,
+.invalidField.validateField:active {
+  background-color: #fff0f0 !important;
+}
+
+.validateFieldWithIcon .is-valid {
+  background-image: unset !important;
+}
+
+.emailLabel {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b476b;
+  padding-left: 8px;
+}
+
+.invalidFieldFeedback {
+  background-color: #fff !important;
+  margin-top: 0 !important;
+}
+
+.formBase {
+  width: 365px;
+  margin: 0 auto;
+}
+
+.termsText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.buttonContainer {
+  padding-top: 32px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #777185;
+  text-align: center;
+}
+
+.descriptionMessage {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #777185;
+  margin-top: 32px;
+}
+
+.goBackLink {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #9a00ff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .buttonContainer,
+  .inputGroupBase {
+    width: 100%;
+  }
+  .inputContainer {
+    width: 62px;
+    height: 62px;
+  }
+  .validateField {
+    height: 62px;
+  }
+}

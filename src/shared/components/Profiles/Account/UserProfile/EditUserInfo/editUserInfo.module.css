@@ -1,0 +1,67 @@
+.container {
+  padding-top: 32px;
+  padding-left: 50px;
+  padding-bottom: 24px;
+}
+.profilePicture {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.button {
+  width: 123px;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.profilePicture {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #777185;
+  padding-top: 8px;
+  margin-bottom: 12px;
+}
+
+.inputFields {
+  min-width: 365px;
+}
+
+.phoneInputField {
+  min-width: 365px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.disabledField {
+  background-color: #ffffff !important;
+}
+
+.phoneInputs {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.phoneInputContainer {
+  margin-left: 16px;
+}
+
+.countryCode {
+  height: 37px;
+}

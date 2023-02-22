@@ -1,0 +1,27 @@
+.loadMoreButton {
+  margin-top: 24px;
+  min-height: 33px;
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  align-items: center;
+  text-align: center;
+  grid-gap: 20px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+  width: 100%;
+}
+.loadMoreButton:focus {
+  box-shadow: none;
+}
+.loadMoreButton:before,
+.loadMoreButton:after {
+  content: '';
+  border-top: 1px solid #d2cfda;
+}
+.loadMoreButton svg {
+  margin-left: 14px;
+}

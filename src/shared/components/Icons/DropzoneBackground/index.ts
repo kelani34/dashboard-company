@@ -1,0 +1,1 @@
+export { DropzoneBackgroundSvg } from './DropzoneBackground';

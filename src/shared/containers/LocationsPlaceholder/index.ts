@@ -1,0 +1,1 @@
+export { LocationsPlaceholder } from './LocationsPlaceholder';

@@ -1,0 +1,1 @@
+export { PlusSvg } from './Plus';

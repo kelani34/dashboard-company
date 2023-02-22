@@ -1,0 +1,105 @@
+.container {
+  min-width: 500px;
+  margin-top: 150px;
+  padding: 0 10px 50px;
+}
+
+.logo {
+  cursor: default;
+  max-width: 250px;
+}
+
+.text {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #2a1344;
+  max-width: 400px;
+  margin: 60px auto 0;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.photoShareIcon {
+  margin-top: 68px;
+  align-self: center;
+}
+
+.button {
+  margin-top: 64px;
+  align-self: center;
+  max-width: 327px;
+}
+
+.errorMessage {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #e82828;
+  max-width: 327px;
+  margin: 40px auto 0;
+}
+
+.logoCompany {
+  object-fit: contain;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 60px;
+  border: 1px solid #ffffff;
+}
+
+.companyInfo {
+  border-top: 1px solid #d2cfda;
+  padding-top: 16px;
+  margin-top: 60px;
+  max-width: 327px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.website {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6d00e6;
+  margin-bottom: 4px;
+}
+
+.phone {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777185;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    min-width: 100%;
+    margin-top: 50px;
+  }
+  .button {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: unset;
+  }
+  .errorMessage {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,1 @@
+export { EmptyRoomsPlaceholder } from './EmptyRoomsPlaceholder';

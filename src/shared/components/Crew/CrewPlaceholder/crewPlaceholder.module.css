@@ -1,0 +1,44 @@
+.content {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content > svg {
+  transform: scale(0.7);
+}
+.heading {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #777185;
+  margin-bottom: 10px;
+}
+.copy {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #777185;
+  width: 280px;
+}
+.content button,
+.content button:hover,
+.content button:focus {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 244px;
+  margin-top: 16px;
+  background: linear-gradient(135deg, #9601ff 0%, #6d00e6 100%);
+  color: #ffffff;
+  box-shadow: none;
+}

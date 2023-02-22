@@ -1,0 +1,53 @@
+.photosFilter {
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+.photosFilter > *,
+.categoryButtonsList button:not(:first-child) {
+  margin-left: 16px;
+}
+.filterButton {
+  height: 32px;
+  width: 32px;
+  background: #e8e7ed;
+  border-radius: 5px;
+  padding: unset;
+}
+.filterButton:focus,
+.clearCatagoriesButton:focus {
+  box-shadow: none;
+}
+.active {
+  background: #5b476b;
+}
+.active svg {
+  fill: #ffffff;
+}
+.active svg path {
+  stroke: #ffffff;
+}
+.clearCatagoriesButton {
+  justify-content: space-between;
+  color: #9a00ff !important;
+  border-color: #9a00ff !important;
+  width: 133px;
+  height: 32px;
+  padding-left: 6px;
+  padding-right: 8px;
+}
+.clearCatagoriesButton svg path {
+  fill: #9a00ff;
+}
+.clearCatagoriesButton:hover {
+  justify-content: space-between;
+  color: #ffffff !important;
+  background-color: #9a00ff !important;
+}
+.clearCatagoriesButton:hover svg path {
+  fill: #ffffff;
+}

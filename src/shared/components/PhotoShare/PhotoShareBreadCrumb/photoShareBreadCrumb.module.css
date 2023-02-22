@@ -1,0 +1,19 @@
+.breadCrumb {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b476b;
+}
+
+.breadCrumbAlbum {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.003px;
+  line-height: 20px;
+  color: #5b476b;
+  margin-bottom: 0;
+  padding-top: 16px;
+}

@@ -1,0 +1,1 @@
+export { PhotoReport } from './PhotoReport';

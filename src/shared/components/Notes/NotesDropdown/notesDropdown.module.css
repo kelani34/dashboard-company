@@ -1,0 +1,59 @@
+.notesDropdown {
+  width: 100%;
+}
+.notesDropdown .itemWrapper {
+  background-color: #f3f3f6;
+  border-radius: 16px;
+  border: none;
+}
+.placeholderArea {
+  flex: 1;
+  padding-left: 20px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+  margin-right: 18px;
+}
+.noteCountText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+.noteMarkerIcon {
+  margin-right: 20px;
+}
+.notesDropdown .buttonOverride {
+  max-width: 48px;
+  height: 40px;
+  padding: 1rem;
+  border-radius: 0 16px 16px 0 !important;
+  background-color: #e8e7ed;
+}
+
+.notesDropdown .openState {
+  color: #777185;
+  border-bottom-right-radius: 0 !important;
+}
+.notesDropdown .openState:not(.collapsed) {
+  background-color: #e8e7ed;
+  box-shadow: none;
+}
+.notesDropdown .openState:not(.closed)::after {
+  transform: rotate(-180deg);
+  border-radius: 0 16px 16px 0 !important;
+}
+.notesDropdown .openState:focus,
+.buttonOverride:focus {
+  box-shadow: none !important;
+}
+.bodyOverride {
+  padding: 20px 16px;
+}
+
+.loadMoreComments > * {
+  width: 100%;
+}

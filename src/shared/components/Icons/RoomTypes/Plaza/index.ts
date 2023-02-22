@@ -1,0 +1,1 @@
+export { PlazaSvg } from './Plaza';

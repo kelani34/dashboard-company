@@ -1,0 +1,1 @@
+export { StorageSvg } from "./Storage";

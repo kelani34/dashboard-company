@@ -1,0 +1,40 @@
+.claimsDataBase {
+  width: 100%;
+  max-width: 600px;
+  min-height: 380px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  padding-bottom: 16px;
+  margin-bottom: 48px;
+  margin: auto;
+}
+
+.information {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #5b476b;
+}
+
+.addInfo {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #5b476b;
+}
+
+.projectAddress {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 8px;
+  margin-bottom: 18px;
+}

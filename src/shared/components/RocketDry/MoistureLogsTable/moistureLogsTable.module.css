@@ -1,0 +1,36 @@
+.tableBase {
+    margin: 30px 0 0;
+}
+
+.tableBase thead th {
+    border-bottom: 1px solid #5B476B !important;
+}
+
+.tableBase tbody td {
+    vertical-align: middle;
+}
+
+.tableColumn {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777185;
+    padding: 5px 0;
+    cursor: default;
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.colorCell {
+    color: white;
+}
+
+.red {
+    background-color: #C50000 !important;
+}
+
+.green {
+    background-color: #4E8B43 !important;
+}

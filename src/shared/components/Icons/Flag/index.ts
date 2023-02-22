@@ -1,0 +1,1 @@
+export { FlagSvg } from './Flag';

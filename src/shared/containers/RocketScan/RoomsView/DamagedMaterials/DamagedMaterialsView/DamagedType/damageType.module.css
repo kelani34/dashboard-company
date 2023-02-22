@@ -1,0 +1,26 @@
+.damageType {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.damageTypeNameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5B476B;
+    padding-left: 10px;
+}
+
+.materials {
+    padding-left: 42px;
+}

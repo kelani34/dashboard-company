@@ -1,0 +1,1 @@
+export { CubePlusSvg } from './CubePlus';

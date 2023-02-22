@@ -1,0 +1,35 @@
+.roomText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  margin-right: 24px;
+  margin-left: -10px;
+}
+.photosCountText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #5b476b;
+  /* padding-bottom: 0px !important; */
+}
+.roomContainer {
+  width: 100%;
+  margin-bottom: 16px;
+  height: 40px;
+}
+.imageWrapper {
+  transform: scale(0.5);
+  transform-origin: left;
+}
+@media screen and (min-width: 768px) {
+  .roomText {
+    font-size: 19px;
+  }
+  .roomContainer {
+    border-bottom: 1px solid #dee2e6;
+    height: auto;
+  }
+}

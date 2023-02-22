@@ -1,0 +1,1 @@
+export { NaturalSvg } from './Natural';

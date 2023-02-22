@@ -1,0 +1,1 @@
+export { ImageDeleteModal } from "./ImageDeleteModal";

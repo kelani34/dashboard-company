@@ -1,0 +1,48 @@
+.pagination {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.previous {
+  margin-right: 15px;
+}
+
+.next {
+  margin-left: 15px;
+}
+
+.pageItem {
+  margin: 4px;
+}
+
+.pageLink {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #5b476b;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: unset;
+  padding: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.pageLink:hover {
+  background-color: #e8e7ed;
+}
+.pageItem.active > .pageLink {
+  color: #ffffff;
+  background-color: #9a00ff;
+  border-radius: 50%;
+  border: unset;
+}

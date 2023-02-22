@@ -1,0 +1,27 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    cursor: default;
+}
+
+.text {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+}

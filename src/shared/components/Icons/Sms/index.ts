@@ -1,0 +1,1 @@
+export { SmsSvg } from './Sms';

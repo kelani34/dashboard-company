@@ -1,0 +1,65 @@
+.imageWrapper {
+  transform: scale(0.54);
+  transform-origin: left;
+  width: 72px;
+}
+.titleColumn {
+  flex: 3;
+}
+.divider {
+  border-bottom: 1px solid #e8e7ed;
+}
+
+h1, .inaccessibleTag, .label, .jobNumber {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0e1c4a;
+  margin: 0;
+}
+
+.locationName, .jobNumberContainer {
+  margin-right: 1.5rem;
+  margin-left: -1.2rem;
+}
+
+.jobNumberContainer > a {
+  text-decoration: underline;
+}
+
+.jobNumberContainer, .jobTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.jobNumber {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 20px;
+}
+.label {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 4px;
+}
+
+.headerIcon {
+  cursor: unset !important;
+}
+.inaccessibleTag {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 112px;
+  height: 28px;
+  background-color: #777185;
+  color: #ffffff;
+  border-radius: 56px;
+  margin-right: 24px;
+}

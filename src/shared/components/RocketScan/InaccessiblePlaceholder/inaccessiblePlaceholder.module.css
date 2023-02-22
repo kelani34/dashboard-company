@@ -1,0 +1,40 @@
+.placeHolderWraper {
+  width: 100%;
+  border: 1px solid #d2cfda;
+  border-radius: 12px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e3e3c;
+  margin: 16px 0 32px;
+}
+.placeHolderHeader {
+  width: 100%;
+  background-color: #777185;
+  color: #ffffff;
+  border-radius: 12px 12px 0 0;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.placeHolderBody {
+  padding: 16px 0;
+}
+.placeHolderSubHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+  margin-bottom: 16px;
+}
+.placeHolderBody button:first-of-type {
+  width: 219px;
+}
+.placeHolderBody button:first-child {
+  width: 100%;
+}
+.placeHolderBody > button:focus {
+  box-shadow: none;
+}

@@ -1,0 +1,1 @@
+export { SideBarRightArrowSvg } from './SideBarRightArrow';

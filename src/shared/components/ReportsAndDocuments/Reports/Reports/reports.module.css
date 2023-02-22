@@ -1,0 +1,24 @@
+.reports {
+    padding: 24px 0;
+}
+
+.headerContainer {
+    border-bottom: 1px solid #e8e7ed;
+}
+
+.headerContainer > div > div {
+    border-bottom: unset;
+}
+
+.header {
+    width: 100%;
+    margin-top: -24px;
+}
+
+.button {
+    width: 225px;
+    height: 44px;
+    margin-right: 24px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

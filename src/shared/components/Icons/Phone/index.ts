@@ -1,0 +1,1 @@
+export { PhoneSvg } from './Phone';

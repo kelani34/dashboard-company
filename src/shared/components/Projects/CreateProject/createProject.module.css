@@ -1,0 +1,35 @@
+.h6 {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777185;
+}
+
+.formBase {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 365px;
+    margin: 0 auto;
+}
+
+.anchor {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #9A00FF;
+}
+
+.anchor:hover, .anchor:active {
+    color: rgb(109, 0, 230)
+}
+
+@media screen and (max-width: 768px) {
+    .formBase, .buttonContainer {
+        width: 100%;
+    }
+}

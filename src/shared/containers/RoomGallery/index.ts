@@ -1,0 +1,1 @@
+export { RoomGallery } from "./RoomGallery";

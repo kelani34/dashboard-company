@@ -1,0 +1,24 @@
+.contentArea {
+    border: 1px solid #d2cfda;
+    background-color: #ffffff;
+    border-radius: 16px;
+    min-height: 90vh;
+    margin-bottom: 50px;
+}
+
+.buttonColumn {
+    max-width: 296px;
+    padding: 1rem 1.3rem 1rem 1rem;
+}
+
+.buttonColumn>button {
+    margin-bottom: 1em;
+}
+
+.buttonWidth {
+    width: 100%;
+}
+
+.noDisplay {
+    display: none !important;
+}

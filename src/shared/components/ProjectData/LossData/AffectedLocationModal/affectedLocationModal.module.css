@@ -1,0 +1,32 @@
+.modalTitle {
+    text-align: center;
+    width: 100%;
+}
+
+.damageTypeButtons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.button {
+    width: 82px;
+    height: 44px;
+    padding: unset;
+    margin-left: 24px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5b476b;
+    padding-left: 8px;
+    margin-bottom: 8px;
+  }

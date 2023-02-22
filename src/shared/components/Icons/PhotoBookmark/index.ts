@@ -1,0 +1,1 @@
+export { PhotoBookmarkSvg } from './PhotoBookmark';

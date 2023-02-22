@@ -1,0 +1,12 @@
+.noLocations {
+    user-select: none;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #b3abc6;
+    margin-left: 24px;
+    width: 100%;
+    text-align: left;
+}

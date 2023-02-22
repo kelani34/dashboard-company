@@ -1,0 +1,1 @@
+export { PrivateOfficeSvg } from './PrivateOffice';

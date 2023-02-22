@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5b476b;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}

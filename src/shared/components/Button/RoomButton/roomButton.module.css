@@ -1,0 +1,25 @@
+.roomBtnBase {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 49px;
+  color: #000000;
+  border-radius: 5px;
+  border: 1px solid #d2cfda;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.roomBtnBase:hover,
+.roomBtnBase:active,
+.isActive {
+  border: 1px solid #9a00ff;
+  box-shadow: 0px 3px 6px rgba(142, 134, 163, 0.1);
+  transition: 0.3s ease-in-out;
+}

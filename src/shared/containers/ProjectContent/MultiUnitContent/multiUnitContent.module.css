@@ -1,0 +1,25 @@
+.contentArea {
+    background-color: #ffffff;
+    min-height: 90vh;
+}
+
+.buttonColumn {
+    max-width: 296px;
+    padding: 1rem 1.3rem 1rem 1rem;
+}
+
+.buttonColumn>button {
+    margin-bottom: 1em;
+}
+
+.buttonWidth {
+    width: 100%;
+}
+
+.buttonSpacing {
+    margin-top: 16px;
+}
+
+.tabs {
+    margin-left: 20px;
+}

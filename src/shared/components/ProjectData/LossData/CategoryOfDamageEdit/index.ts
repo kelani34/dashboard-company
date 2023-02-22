@@ -1,0 +1,1 @@
+export { CategoryOfDamageEdit } from './CategoryOfDamageEdit';

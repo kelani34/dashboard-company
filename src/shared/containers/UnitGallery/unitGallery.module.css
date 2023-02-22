@@ -1,0 +1,19 @@
+.containerWrapper {
+    padding: 0 1rem;
+}
+
+.tilesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placeholder {
+    user-select: none;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B3ABC6;
+    margin-left: 24px;
+}

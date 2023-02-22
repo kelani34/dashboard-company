@@ -1,0 +1,1 @@
+export { OfficeBuildingSvg } from './OfficeBuilding';

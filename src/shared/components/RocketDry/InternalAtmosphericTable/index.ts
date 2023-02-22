@@ -1,0 +1,1 @@
+export { InternalAtmosphericTable } from './InternalAtmosphericTable';

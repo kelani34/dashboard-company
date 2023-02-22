@@ -1,0 +1,81 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "ignorePatterns": ["!**/*", "**/*.js"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "import"],
+  "rules": {
+    "no-shadow": "off",
+    "no-useless-constructor": "off",
+    "no-use-before-define": [0],
+    "@typescript-eslint/no-use-before-define": [1],
+    "@typescript-eslint/no-unused-vars": "error",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "max-len": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/label-has-associated-control": "off",
+    "indent": "off",
+    "no-case-declarations": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "no-restricted-globals": "off",
+    "implicit-arrow-linebreak": "off",
+    "import/no-webpack-loader-syntax": "off",
+    "linebreak-style": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "no-return-await": "off",
+    "semi-style": "off",
+    "no-console": "error",
+    "react/no-unescaped-entities": "off",
+    "no-alert": "off",
+    "react/button-has-type": "off",
+    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "prefer-destructuring": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["Assets", "./shared/assets"],
+          ["Components", "./src/shared/components"],
+          ["Containers", "./src/shared/containers"],
+          ["Context", "./src/shared/context"],
+          ["HOC", "./src/shared/hoc"],
+          ["Utils", "./src/shared/utils"],
+          ["Pages", "./src/pages"],
+          ["Hooks", "./src/shared/hooks"],
+          ["Themes", "./src/shared/themes"]
+        ],
+        "extensions": [".mjs", ".js", ".jsx", ".ts", ".tsx"]
+        //"extensions": [".mjs", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}

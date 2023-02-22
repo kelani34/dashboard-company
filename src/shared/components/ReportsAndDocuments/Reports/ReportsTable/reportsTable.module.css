@@ -1,0 +1,31 @@
+.reportsTableBase {
+    margin: 30px 8% 0;
+}
+
+.reportsTableBase thead th {
+    border-bottom: 1px solid #5B476B !important;
+}
+
+.reportsTableBase tbody td {
+    vertical-align: middle;
+}
+
+.tableColumn {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777185;
+    padding: 5px 0;
+    cursor: default;
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.reportsPaginationBase {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 22px 0;
+}

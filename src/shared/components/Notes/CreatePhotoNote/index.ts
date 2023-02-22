@@ -1,0 +1,1 @@
+export { CreatePhotoNote } from './CreatePhotoNote';

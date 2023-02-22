@@ -1,0 +1,65 @@
+.customForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputWrapper .inputContainer {
+    padding: 0;
+    border-radius: 0;
+    width: auto;
+}
+
+.iconRoom {
+    margin-right: 8px;
+}
+
+.inputBox {
+    border: none!important;
+    padding-left: 0;
+    background-color: inherit;
+}
+
+.customLevelText {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5B476B !important;
+}
+
+.inputWrapper .inputContainer:focus-visible,
+.inputBox:focus-visible {
+    outline: none !important;
+}
+
+.editIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 200px;
+}
+
+.delete {
+    margin-right: 1em;
+}
+
+.delete path {
+    fill: #e82828;
+}
+
+.submitButton {
+    padding: 0;
+}
+
+.submitButton:focus {
+    box-shadow: unset!important;
+}

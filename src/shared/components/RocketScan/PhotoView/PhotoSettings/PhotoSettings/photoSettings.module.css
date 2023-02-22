@@ -1,0 +1,112 @@
+.photoSettings {
+  padding: 24px 0 0 0;
+  background-color: transparent;
+}
+
+.photoSettingsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 21px;
+}
+
+.colouredButtonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #e8e7ed;
+  padding-bottom: 1px;
+}
+
+.photoSettingsHeader button {
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.photoSettingsHeader .deleteButton p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  color: #e82828;
+  margin-bottom: 0px !important;
+}
+
+.photoSettingsHeader .deleteButton svg path {
+  fill: #e82828;
+}
+
+.photoSettingsHeader .optionsButton {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9a00ff;
+}
+
+.optionsButton:focus,
+.deleteButton:focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+}
+
+.photoSettingsHeader .optionsButton svg path {
+  fill: #9a00ff;
+}
+
+.optionsIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9a00ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  margin-right: 0.7em;
+}
+
+.photoSettingsHeader .bookmarkButton p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  color: #9a00ff;
+  margin-bottom: 0px !important;
+}
+
+.photoSettingsHeader .bookmarkButton:focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+}
+
+.photoSettingsHeader .bookmarkButton:hover {
+  box-shadow: unset !important;
+  outline: unset !important;
+  color: #9a00ff !important;
+}
+
+.photoSettingsHeader .flagButton p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  color: #9a00ff;
+  margin-bottom: 0px !important;
+}
+
+.photoSettingsHeader .flagButton:focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+}
+
+.photoSettingsHeader .flagButton:hover {
+  box-shadow: unset !important;
+  outline: unset !important;
+  color: #9a00ff !important;
+}

@@ -1,0 +1,18 @@
+.addLocationsWrapper {
+    margin-top: 16px;
+    padding-bottom: 421px;
+}
+
+.addLocationsTitle {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0e1c4a;
+    margin-left: 30px;
+}
+
+.addLocationsContent {
+    margin-top: 115px;
+}

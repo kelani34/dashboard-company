@@ -1,0 +1,1 @@
+export { GoogleSvg } from './Google';

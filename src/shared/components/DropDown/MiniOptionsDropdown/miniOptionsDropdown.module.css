@@ -1,0 +1,23 @@
+.optionSelectBase {
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.icon {
+  position: absolute;
+  right: 16px;
+  top: 40%;
+}
+
+.dropDown {
+  max-height: 272px;
+}
+.optionSelectBase > input {
+  background-color: transparent !important;
+  padding: 8px !important;
+}
+
+.input {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}

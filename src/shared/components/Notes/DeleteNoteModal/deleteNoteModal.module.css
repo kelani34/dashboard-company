@@ -1,0 +1,98 @@
+.modalContent {
+  max-width: 415px;
+  height: 377px;
+  padding: 1.3em 1.5em;
+  box-shadow: 0px 24px 44px rgba(119, 113, 133, 0.2);
+  border-radius: 5px;
+}
+.modalHeader {
+  padding: 0 0 0.5em 0;
+  border-color: #e8e7ed;
+}
+.modalHeader svg path {
+  fill: #5b476b;
+}
+.modalHeader > svg path {
+  fill: #e82828;
+}
+.modalTitle,
+.lede {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b476b;
+  text-align: center;
+  width: 100%;
+}
+.modalTitle {
+  text-transform: capitalize;
+}
+.lede {
+  text-align: left;
+  color: #777185;
+  width: 330px;
+}
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0 0 0;
+}
+.modalBody .deleteModalCopy {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.modalBody .deleteModalCopy p {
+  margin-bottom: 0.1rem;
+}
+.delete {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e82828;
+  border-color: #e82828;
+  height: 44px;
+}
+.delete:hover,
+.delete:focus {
+  color: #ffffff;
+  background-color: #e82828;
+  box-shadow: none;
+}
+.modalFooter {
+  padding: 1rem 0 0 0;
+  border: none;
+  justify-content: center;
+}
+.closeButtonClass {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b476b;
+  border: 1px solid #5b476b;
+  border-radius: 5px;
+  width: 100%;
+  height: 44px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.closeButtonClass:hover,
+.closeButtonClass:focus {
+  color: #ffffff;
+  background-color: #5b476b;
+  box-shadow: none;
+}

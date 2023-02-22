@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.button-group {
+  display: inline-flex;
+}
+.sizeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #ffffff;
+  padding: 6px 24px;
+  height: 44px;
+  width: 155px;
+  border: 1px solid #d2cfda;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.sizeButton:focus {
+  box-shadow: none;
+}
+
+.leftEndSizeButton {
+  border-radius: 5px 0px 0px 5px;
+  border-right: unset;
+}
+.rightEndSizeButton {
+  border-radius: 0px 5px 5px 0px;
+  border-left: unset;
+}
+
+.rightBorderUnset {
+  border-right: unset !important;
+}
+
+.leftBorderUnset {
+  border-left: unset !important;
+}
+
+.middleSizeButton {
+  border-radius: unset;
+}
+
+.selected {
+  background-color: #f4e5ff;
+  font-weight: 500;
+  border: 1px solid #9a00ff !important;
+  box-shadow: 0px 4px 6px rgba(142, 134, 163, 0.08);
+}

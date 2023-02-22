@@ -1,0 +1,1 @@
+export { PeoplePinkSvg } from './PeoplePink';

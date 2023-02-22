@@ -1,0 +1,1 @@
+export { SplashPageLayout } from './SplashPageLayout';

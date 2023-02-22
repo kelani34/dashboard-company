@@ -1,0 +1,1 @@
+export { PhotoShareGallery } from './PhotoShareGallery';

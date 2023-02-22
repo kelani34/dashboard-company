@@ -1,0 +1,1 @@
+export { PersonSvg } from './Person';

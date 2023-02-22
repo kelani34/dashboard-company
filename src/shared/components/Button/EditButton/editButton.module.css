@@ -1,0 +1,8 @@
+.button {
+  width: 148px;
+  height: 32px;
+}
+
+.button:focus {
+  box-shadow: unset;
+}

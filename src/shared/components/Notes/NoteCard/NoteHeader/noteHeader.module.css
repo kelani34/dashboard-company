@@ -1,0 +1,15 @@
+.noteHeader {
+  margin-bottom: 8px;
+}
+.name {
+  font-weight: 600;
+}
+.datePosted {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.editIcon {
+  margin-right: 16px;
+}

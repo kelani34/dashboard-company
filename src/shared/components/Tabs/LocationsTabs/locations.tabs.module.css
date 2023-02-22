@@ -1,0 +1,75 @@
+.tabsContainer {
+  width: 100%;
+}
+
+.tabsContainer a {
+  /*width: 170px;*/
+  height: 30px !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #777185;
+  padding: 10px 0;
+  border-bottom: 3px solid transparent !important;
+}
+.tabsContainer a:last-child {
+  margin-left: 34px;
+  margin-right: 12px;
+}
+.tabsContainer a .icon-inactive path {
+  fill: #777185;
+}
+.tabsContainer .tabs {
+  padding-bottom: 1px;
+  position: relative;
+}
+.tabsContainer .dropdownMenu {
+  position: absolute;
+  z-index: 99999;
+  top: 2em;
+  display: none;
+}
+
+.tabsContainer .active-Tab,
+.tabsContainer .active-Tab:hover {
+  color: #9a00ff !important;
+  font-weight: 600;
+  border-bottom: 3px solid #9a00ff !important;
+  isolation: unset !important;
+}
+.tabsContainer .active-Tab:hover > .dropdownMenu {
+  display: block !important;
+  transition: all 0.2s ease-in-out;
+}
+.active-Tab::after {
+  content: attr(data-text);
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
+  font-weight: 600 !important;
+}
+.icon-active,
+.icon-inactive {
+  margin-right: 0.5em;
+}
+
+.tabsContainer .active-Tab .icon-active path {
+  fill: #9a00ff !important;
+}
+
+.active-Tab:hover .icon-inactive path,
+.tabsContainer a:hover .icon-inactive path {
+  fill: #9a00ff;
+}
+
+.flexTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

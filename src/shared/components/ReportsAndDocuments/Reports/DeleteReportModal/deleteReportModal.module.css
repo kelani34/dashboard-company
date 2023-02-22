@@ -1,0 +1,45 @@
+.modalContent {
+    height: 270px;
+    padding: 1.3em 1.5em;
+    box-shadow: 0 24px 44px rgba(119, 113, 133, 0.2);
+    border-radius: 5px;
+}
+.modalHeader {
+    padding: 0 0 0.5em 0;
+    border-color: #e8e7ed;
+}
+
+.modalTitle{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5b476b;
+    text-align: center;
+    width: 100%;
+}
+.modalTitle {
+    text-transform: capitalize;
+}
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0 0 0;
+}
+.modalBody  {
+    font-family: IBM Plex Sans;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.buttons {
+    width: 155px;
+    margin: 0 13px;
+}

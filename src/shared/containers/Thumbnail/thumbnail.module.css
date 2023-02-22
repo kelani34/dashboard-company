@@ -1,0 +1,37 @@
+.deleteImageIcon {
+  position: absolute;
+  top: -18px;
+  right: -24px;
+  display: none;
+  transition: display 0.2s ease-in-out;
+}
+
+.thumbnailWrapper {
+  transition: all 600ms ease-in-out;
+}
+
+.thumbnailWrapper:hover .deleteImageIcon {
+  display: block;
+  z-index: 9999;
+}
+.thumbnailWrapper {
+  position: relative;
+  width: 33.333%;
+}
+.overlay {
+  display: none;
+}
+.thumbnailWrapper:last-child .overlay {
+  display: block !important;
+}
+@media screen and (min-width: 357px) {
+  .thumbnailWrapper {
+    min-width: 104px;
+  }
+}
+@media screen and (min-width: 475px) {
+  .thumbnailWrapper {
+    width: auto;
+    min-width: unset;
+  }
+}

@@ -1,0 +1,1 @@
+export { DamageInfoEdit } from './DamageInfoEdit';

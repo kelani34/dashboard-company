@@ -1,0 +1,15 @@
+.modalTitle {
+  font-family: IBM Plex Sans;
+  text-align: center;
+  width: 100%;
+}
+
+.text {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  text-align: center;
+}

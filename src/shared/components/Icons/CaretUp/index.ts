@@ -1,0 +1,1 @@
+export { CaretUpSvg } from "./CaretUp";

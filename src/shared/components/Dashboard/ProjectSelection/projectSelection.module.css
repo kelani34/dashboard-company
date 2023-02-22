@@ -1,0 +1,84 @@
+.cardBase {
+    background-color: #ffffff;
+    box-shadow: 0 1px 18px rgba(122, 111, 252, 0.15);
+    height: calc(100vh - 95px);
+    padding: 25px;
+    /* Keep it visible on small devices ? */
+    min-width: 240px;
+    overflow: hidden;
+}
+
+.tabsRow {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
+    margin-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 1px solid #D2CFDA;
+    width: 100%;
+    padding-bottom: 33px;
+}
+
+.tabContainer {
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    position: absolute;
+    left: 0;
+    padding: 0 24px;
+    text-align: center;
+
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.selectedTabContainer {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.selectedTabContainer::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 2px;
+    width: 100%;
+    background: #9A00FF;
+    left: 0;
+}
+
+.secondPosition {
+    position: absolute;
+    left: 140px;
+}
+
+.viewAll {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding: 0 24px;
+    text-decoration: underline;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    color: #777185;
+}
+
+.projectsContainer {
+    position: absolute;
+    top: 90px;
+    max-height: calc(100vh - 200px);
+    width: calc(100% - 48px);
+}
+
+.relativePos {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}

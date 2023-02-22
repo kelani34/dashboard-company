@@ -1,0 +1,1 @@
+export { ReportsTypeSvg } from './ReportsType';

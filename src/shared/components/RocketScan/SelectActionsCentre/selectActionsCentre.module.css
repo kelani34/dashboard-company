@@ -1,0 +1,33 @@
+.actionCentre {
+  width: 530px;
+  height: 46px;
+  padding: 10px 24px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e8e7ed;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 12px rgba(142, 134, 163, 0.2);
+}
+
+.photoCount {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.pipeDivider {
+  pointer-events: none;
+}
+.selectButton,
+.selectAllButton,
+.cancelSelectionButton {
+  line-height: 9px;
+  padding: 0;
+  width: 73px;
+  height: 24px;
+}
+.cancelSelectionButton {
+  background-color: #9a00ff;
+}

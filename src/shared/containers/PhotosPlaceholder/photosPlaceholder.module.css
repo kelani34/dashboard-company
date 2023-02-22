@@ -1,0 +1,23 @@
+.contentWrapper {
+  padding-top: 10%;
+}
+
+.content {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.heading {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #b3abc6;
+  margin-bottom: 2.25em;
+}

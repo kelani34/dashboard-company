@@ -1,0 +1,7 @@
+.projectContent {
+    min-height: calc(42px + (64px * 15));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: baseline;
+}

@@ -1,0 +1,1 @@
+export { AsbestosSvg } from './Asbestos';

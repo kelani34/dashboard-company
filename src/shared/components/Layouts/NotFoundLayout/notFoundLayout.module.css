@@ -1,0 +1,47 @@
+.logo {
+  max-width: 148px;
+  margin-bottom: 3em;
+  padding-top: 24.45px;
+  padding-left: 24px;
+}
+.header {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 40px;
+  color: #5b476b;
+  padding-bottom: 50px;
+}
+.buttonContainer {
+  width: 320px;
+  height: 45px;
+  margin: 0 auto;
+}
+.notFoundIcon {
+  padding-top: 50px;
+  box-sizing: content-box;
+}
+.description {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #777185;
+  padding-top: 56px;
+  margin: 0 auto;
+}
+.support {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 61px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container {
+  text-align: center;
+}

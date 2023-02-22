@@ -1,0 +1,1 @@
+export { RoomTypeItem } from "./RoomTypeItem";

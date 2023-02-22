@@ -1,0 +1,23 @@
+.roomLevelBase {
+    text-align: center;
+    width: 100%;
+    /*z-index: 1;*/
+}
+
+.levelName {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #D2CFDA;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6D00E6;
+}
+
+.levelName span {
+    background-color: #FFFFFF;
+    padding: 0 5px;
+}

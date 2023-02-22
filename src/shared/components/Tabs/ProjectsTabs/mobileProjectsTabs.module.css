@@ -1,0 +1,113 @@
+.screenContainer {
+    width: 100%;
+    height: 100%;
+    padding: 0rem !important;
+}
+
+.tabsContainer {
+    width: 100%;
+    padding: 0rem !important;
+}
+
+button {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tabs {
+    border: none;
+}
+
+.active-Tab,
+.active-Tab:hover {
+    color: #ffffff !important;
+    font-weight: 600;
+    border-radius: 0 0 16px 16px;
+    background: linear-gradient(316.14deg, #6d00e6 1.84%, #9a00ff 96.25%) !important;
+}
+
+.active-Tab::after {
+    content: attr(data-text);
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+    font-weight: 600 !important;
+}
+
+.icon-active,
+.icon-inactive {
+    margin-right: 1em;
+}
+
+.icon-active path {
+    fill: #ffffff;
+}
+
+.icon-inactive path {
+    fill: #9a00ff;
+}
+
+.icon-phone {
+    padding-bottom: 0.265em;
+}
+
+.flexTop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholderText {
+    user-select: none;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #B3ABC6;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+
+.menuContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sortFilterButton {
+    border: none !important;
+    background-color: unset !important;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #5B476B;
+}
+
+.sortFilterButton:active,
+.sortFilterButton:focus,
+.sortFilterButton:hover {
+    color: #5B476B !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.sortFilterButton::after {
+    display: none;
+}
+
+.iconPadding {
+    margin-left: 6px;
+}

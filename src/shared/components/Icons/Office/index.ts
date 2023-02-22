@@ -1,0 +1,1 @@
+export { OfficeSvg } from './Office';

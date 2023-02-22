@@ -1,0 +1,9 @@
+.containerWrapper {
+  padding: 16px 2rem;
+}
+
+.singleUnitWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+}

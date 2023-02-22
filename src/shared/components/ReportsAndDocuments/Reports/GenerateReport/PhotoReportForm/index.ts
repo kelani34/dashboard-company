@@ -1,0 +1,1 @@
+export { PhotoReportForm } from './PhotoReportForm';

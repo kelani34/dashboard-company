@@ -1,0 +1,25 @@
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.checkboxContainer {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.textBoxContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  height: 400px;
+}
+
+.textBox{
+    margin-bottom: 1rem;
+}
+
+.btn {
+  max-width: 200px !important;
+}

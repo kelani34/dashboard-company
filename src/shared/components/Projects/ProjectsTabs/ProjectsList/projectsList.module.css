@@ -1,0 +1,87 @@
+.projectListContainer {
+    min-height: 700px;
+}
+.projectListWrapper {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5b476b;
+    border-color: #e8e7ed;
+    background-color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.projectListWrapper thead th:first-child,
+.projectListWrapper tbody td:first-child {
+    padding-left: 72px;
+}
+.projectListWrapper thead th:last-child,
+.projectListWrapper tbody td:last-child {
+    padding-right: 72px;
+}
+.projectListWrapper thead th {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #777185;
+    padding-bottom: 1.2em;
+    border-bottom-color: #e8e7ed !important;
+}
+.projectListWrapper tbody tr:hover {
+    background-color: #f4e5ff;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.projectListWrapper tbody td {
+    vertical-align: middle;
+}
+.projectListWrapper p {
+    margin-bottom: 0;
+}
+.address {
+    padding-bottom: 0.5rem;
+}
+.address p:first-child {
+    margin-bottom: 0.5em;
+}
+.street {
+    font-weight: 600;
+}
+
+.region {
+    font-weight: normal;
+    font-size: 11px;
+}
+.downArrow {
+    position: absolute;
+    display: inline-block;
+    height: 6px;
+    margin-left: 0.9em;
+}
+.downArrow:before,
+.downArrow:after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    border: 8px solid transparent;
+}
+
+.downArrow:before {
+    top: 0;
+    border-top-color: #777185;
+}
+.downArrow:after {
+    top: -2px;
+    border-top-color: #fff;
+}
+.sortIcon {
+    margin-left: 10px;
+}
+.thSpan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,1 @@
+export { SquareSvg } from './Square';

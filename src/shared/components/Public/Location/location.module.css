@@ -1,0 +1,29 @@
+.roomWrapper {
+  background-color: #ffffff;
+  padding: 6px;
+  margin-top: 16px;
+  border: 1px solid #e8e7ed;
+  border-radius: 16px;
+}
+.unitText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  color: #6d00e6;
+  padding: 8px 6px 0 6px;
+  border-bottom: 1px solid #d2cfda;
+}
+@media screen and (min-width: 768px) {
+  .roomWrapper {
+    padding: 0;
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+  }
+  .unitText {
+    padding: 46px 0 0 0;
+    border-bottom: none;
+  }
+}

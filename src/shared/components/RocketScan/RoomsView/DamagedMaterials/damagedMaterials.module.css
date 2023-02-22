@@ -1,0 +1,51 @@
+.damagedMaterialsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #E8E7ED;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #5B476B;
+    margin-bottom: 0;
+}
+
+.editButton {
+    width: 148px;
+    height: 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.smallTitles {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5B476B;
+    margin-top: 16px;
+}
+
+.damagesCount {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B3ABC6;
+}
+
+.damagedMaterials {
+    padding-left: 48px;
+}

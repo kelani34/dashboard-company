@@ -1,0 +1,1 @@
+export { BookmarkSvg } from './Bookmark';

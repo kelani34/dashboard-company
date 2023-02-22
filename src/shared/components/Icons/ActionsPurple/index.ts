@@ -1,0 +1,1 @@
+export { ActionsPurpleSvg } from "./ActionsPurple";

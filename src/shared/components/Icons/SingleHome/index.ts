@@ -1,0 +1,1 @@
+export { SingleHomeSvg } from './SingleHome';

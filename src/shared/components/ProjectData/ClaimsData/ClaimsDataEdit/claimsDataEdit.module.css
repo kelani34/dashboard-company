@@ -1,0 +1,20 @@
+.editBase {
+  margin-bottom: 16px;
+}
+
+.formFooterButton:last-child {
+  margin-left: 24px;
+}
+
+.formFooterButton {
+  width: 115px;
+  height: 40px;
+}
+
+.formFooterButton:focus {
+  box-shadow: none;
+}
+
+.claimsDataInputWrapper {
+  margin-bottom: 24px;
+}

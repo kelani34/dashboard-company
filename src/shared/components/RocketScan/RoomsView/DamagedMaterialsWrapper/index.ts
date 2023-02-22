@@ -1,0 +1,1 @@
+export { DamagedMaterialsWrapper } from './DamagedMaterialsWrapper';

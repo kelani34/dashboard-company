@@ -1,0 +1,1 @@
+export { DamageTypeItem } from './DamageTypeItem';

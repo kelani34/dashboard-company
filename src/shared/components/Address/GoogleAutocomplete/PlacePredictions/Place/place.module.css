@@ -1,0 +1,35 @@
+.placeText {
+    display: flex;
+    flex-direction: column;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    padding: 16px 0;
+    border-bottom: 1px solid #E8E7ED;
+}
+
+.placeText:hover {
+    background-color: transparent !important;
+}
+
+.mainText {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.secondaryText {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777185;
+    margin-top: 5px;
+}

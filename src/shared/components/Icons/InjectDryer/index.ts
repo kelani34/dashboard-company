@@ -1,0 +1,1 @@
+export { InjectDryerSvg } from './InjectDryer';

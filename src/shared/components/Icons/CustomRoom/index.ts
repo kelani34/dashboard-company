@@ -1,0 +1,1 @@
+export { CustomRoomSvg } from './CustomRoom';

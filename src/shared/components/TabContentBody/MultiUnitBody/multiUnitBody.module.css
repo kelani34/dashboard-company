@@ -1,0 +1,18 @@
+.bodyArea {
+  background-color: #ffffff;
+  margin-top: 32px;
+  min-height: calc(100vh - 290px);
+}
+
+.buttonColumn {
+  width: 183px;
+}
+
+.buttonColumn > button {
+  margin-bottom: 1em;
+}
+
+.contentColumn {
+  padding-left: 24px;
+  border-left: 1px solid #e8e7ed;
+}

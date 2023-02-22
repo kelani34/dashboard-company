@@ -1,0 +1,1 @@
+export { ImpactSvg } from './Impact';

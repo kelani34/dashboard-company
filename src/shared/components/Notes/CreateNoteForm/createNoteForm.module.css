@@ -1,0 +1,59 @@
+.formContainer {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  background-color: #ffffff;
+  border-radius: 24px;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 32px;
+}
+.pinkBackground {
+  background-color: #f4e5ff;
+}
+
+.form {
+  border: unset;
+  border-radius: 24px 0 0 24px;
+  background-color: inherit;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.form:focus {
+  background-color: inherit;
+  outline: unset;
+  box-shadow: unset;
+}
+.formContainer + div {
+  background: transparent !important;
+  margin-top: 8px !important;
+  margin-left: 16px;
+}
+.postButtonContainer {
+  height: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.postButton {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #6d00e6;
+}
+.postButton:focus {
+  box-shadow: none;
+}
+.charCount {
+  width: 100%;
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 12.003px;
+  line-height: 20px;
+  color: #5b476b;
+  text-align: right;
+}

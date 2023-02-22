@@ -1,0 +1,83 @@
+.recentlyAccessedBase {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 24px 0 0;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: width 600ms, height 1000ms;
+}
+
+.leftAligned {
+    padding-left: 23px;
+    justify-content: flex-start !important;
+}
+
+.titleIcon {
+    align-self: center;
+}
+
+.h4 {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #5B476B;
+    margin-bottom: 18px;
+}
+
+.navItem {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navLink {
+    padding: 14px 25px;
+    transition: width 600ms, height 1000ms;
+}
+
+.navTitle {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5B476B;
+    padding-left: 17px;
+}
+
+/*
+ * sidebar closed styles
+*/
+
+.closed .recentlyAccessedBase {
+    justify-content: flex-end;
+}
+
+.closed .titleContainer {
+    width: 70px !important;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.closed .titleIcon {
+    align-self: flex-end;
+}
+
+.closed .navLink {
+    width: 70px !important;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+}
+
+.closed .navItem {
+    justify-content: flex-end;
+}

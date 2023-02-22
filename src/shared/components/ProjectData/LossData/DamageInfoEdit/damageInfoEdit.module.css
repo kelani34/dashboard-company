@@ -1,0 +1,14 @@
+.container, .formButtons {
+  margin-top: 24px;
+}
+
+.formFooterButton:last-child {
+  margin-left: 24px;
+}
+.formFooterButton {
+  width: 115px;
+  height: 40px;
+}
+.formFooterButton:focus {
+  box-shadow: none;
+}

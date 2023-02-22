@@ -1,0 +1,1 @@
+export { StairwaySvg } from "./Stairway";

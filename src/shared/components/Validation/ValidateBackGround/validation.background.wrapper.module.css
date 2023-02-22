@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  padding-top: 10px;
+}
+
+.isNotValid {
+  background-color: #fff0f0;
+}
+.maxWidth {
+  width: 100%;
+}

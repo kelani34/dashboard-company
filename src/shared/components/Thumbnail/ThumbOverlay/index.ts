@@ -1,0 +1,1 @@
+export { ThumbOverlay } from "./ThumbOverlay";

@@ -1,0 +1,147 @@
+.sideBar {
+  width: 265px;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 6px 0 12px rgba(142, 134, 163, 0.2);
+  transition: transform 300ms;
+  z-index: 100000;
+}
+
+.sideBarHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  width: 100%;
+  transition: width 600ms, height 1000ms;
+}
+
+.sideBarHeader .largeLogo {
+  width: 148px !important;
+}
+
+.sideBarHeader .logoIcon {
+  align-self: center;
+}
+
+.hr {
+  margin: 10px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #6a0dce;
+}
+
+.companyNameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0 25px 20px;
+  transition: width 600ms, height 1000ms;
+}
+
+.companyNameContainer p {
+  margin-right: 10px;
+}
+
+.iconContainer {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transition: transform 300ms;
+  transform: translate3d(calc(265px - 12px), 0, 0);
+  background-color: transparent;
+  z-index: 1000000;
+}
+
+/*
+ * desktop sidebar closed styles
+*/
+
+.sideBarClosed .sideBar {
+  transform: translate3d(calc(-195px), 0, 0);
+}
+
+.sideBarClosed .iconContainer {
+  transform: translate3d(calc(70px - 12px), 0, 0);
+}
+
+.sideBarClosed .sideBarHeader {
+  width: 70px !important;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.sideBarClosed .hr {
+  width: 30px;
+  align-self: center;
+}
+
+.sideBarClosed .companyNameContainer {
+  padding-left: 0;
+  padding-right: 0;
+  width: 70px;
+  align-self: flex-end;
+  justify-content: center;
+}
+
+/*
+ * Sidebar mobile styles
+*/
+
+.sideBarCloseIcon {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10000;
+}
+
+/*
+ * Media queries
+*/
+
+@media screen and (min-width: 991px) {
+  .sideBarCloseIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sideBar {
+    width: 365px !important;
+    transform: translate3d(-365px, 0, 0);
+  }
+
+  .sideBarMobile .sideBar {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .sideBarInner {
+    width: 265px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .iconContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .sideBar {
+    width: 310px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sideBar {
+    width: 270px !important;
+  }
+}

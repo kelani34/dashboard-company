@@ -1,0 +1,31 @@
+.btnBase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 49px;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #9A00FF;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: -webkit-linear-gradient(135deg, #9601FF 0%, #6D00E6 100%);
+    background: -moz-linear-gradient(135deg, #9601FF 0%, #6D00E6 100%);
+    background: -o-linear-gradient(135deg, #9601FF 0%, #6D00E6 100%);
+    background: linear-gradient(135deg, #9601FF 0%, #6D00E6 100%);
+    transition: color 300ms ease-out,background 300ms ease-out;
+}
+
+.btnBase:hover, .btnBase:active {
+    color: #fff;
+    background: linear-gradient(135deg, #6D00E6 0%, #6D00E6 100%);
+}
+
+.outlined {
+    color: #9A00FF;
+    background: linear-gradient(0, transparent 0%, transparent 100%);
+}

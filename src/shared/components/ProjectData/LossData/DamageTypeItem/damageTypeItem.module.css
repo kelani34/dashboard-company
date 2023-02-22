@@ -1,0 +1,10 @@
+.container {
+    margin-right: 24px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5b476b;
+}

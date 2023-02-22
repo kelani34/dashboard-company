@@ -1,0 +1,1 @@
+export { MobileAppSvg } from './MobileApp';

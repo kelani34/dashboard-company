@@ -1,0 +1,73 @@
+.photoViewCarousalBase {
+  position: relative;
+  padding: 150px 0;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselInner {
+  position: relative;
+  width: 80%;
+}
+
+.controllerIcon {
+  position: absolute;
+  top: calc(50% - 25px);
+  z-index: 999;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.controllerIcon > svg path:first-child {
+  fill: #3d3d3d;
+  stroke: #3d3d3d;
+}
+
+.nextIcon {
+  right: 75px;
+}
+
+.prevIcon {
+  left: 75px;
+}
+
+.errorMessage {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #5b476b;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .nextIcon {
+    right: 25px !important;
+  }
+
+  .prevIcon {
+    left: 25px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .controllerIcon {
+    top: calc(50% - 100px);
+  }
+
+  .nextIcon {
+    right: 5px !important;
+  }
+
+  .prevIcon {
+    left: 5px !important;
+  }
+
+  .photoViewCarousalBase {
+    width: 100% !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px;
+    min-height: unset !important;
+  }
+}

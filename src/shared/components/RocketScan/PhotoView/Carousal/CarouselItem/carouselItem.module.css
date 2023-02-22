@@ -1,0 +1,28 @@
+.carouselItem {
+  height: 40%;
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.carouselItem.irExists {
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.carouselItem img {
+  display: block;
+  max-width: 100%;
+  max-height: 65vh;
+}
+
+.carouselItem.irExists img {
+  width: 49%;
+}
+
+@media screen and (max-width: 768px) {
+  .carouselItem img {
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.sourceContainer {
+  display: block;
+  position: absolute;
+  width: 375px;
+  background: #ffffff;
+  border: 1px solid #e8e7ed;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 12px rgba(142, 134, 163, 0.2);
+  border-radius: 16px;
+  z-index: 500;
+}
+
+.markSource {
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b476b;
+  border-bottom: 1px solid #e8e7ed;
+  padding: 16px 23px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.changeRoom {
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b476b;
+  padding: 20px 23px;
+  align-items: center;
+  justify-content: space-between;
+}

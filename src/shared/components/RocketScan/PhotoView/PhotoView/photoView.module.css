@@ -1,0 +1,60 @@
+.photoViewWrapper {
+  background-color: #f3f3f6;
+}
+.carousel {
+  background: #000000;
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 24px;
+}
+.carouselHeader {
+  padding: 0 70px;
+}
+.backArrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  color: #ffffff;
+}
+.backArrow:hover {
+  color: #ffffff;
+}
+.backArrow > svg path {
+  fill: #ffffff;
+}
+.backArrow:focus {
+  box-shadow: none;
+}
+.photoBreadCrumb span,
+.photoMetaData {
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #ffffff !important;
+}
+.photoMetaData {
+  padding-left: 70px;
+  padding-bottom: 24px;
+}
+.photoMetaData span:first-child {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .carouselHeader {
+    padding: 0 25px;
+  }
+  .photoMetaData {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carouselHeader {
+    padding: 0 10px;
+  }
+  .photoMetaData {
+    padding-left: 10px;
+  }
+}

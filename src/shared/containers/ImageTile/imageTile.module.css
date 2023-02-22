@@ -1,0 +1,42 @@
+.imageTileCard {
+  height: 199px;
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d2cfda;
+  border-radius: 10px;
+  margin: 0 0.75em;
+  background-color: unset !important;
+}
+
+.imageTileCard:hover {
+  box-shadow: 0px 6px 12px rgba(142, 134, 163, 0.2);
+  border-color: rgba(154, 0, 255, 0.5);
+  transition: ease-in-out 0.2s;
+}
+
+.iconImage {
+}
+
+.imageCaption {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+}
+.sizeSmall {
+  width: 156px;
+  height: 156px;
+  padding-top: 36px;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.sizeSmall .imageCaption {
+  font-size: 16px;
+  line-height: 24px;
+}

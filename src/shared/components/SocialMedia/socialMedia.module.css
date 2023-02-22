@@ -1,0 +1,30 @@
+.socialMediaWrapper {
+    width: 263px;
+    margin: 40px auto 0 auto;
+}
+
+.socialMediaButton {
+    background: #fff !important;
+    border: 2px solid #9a00ff !important;
+    box-sizing: border-box;
+    border-radius: 9px !important;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+}
+.socialMediaButton:focus {
+    box-shadow: 0 0 3px 1px #330055 !important;    
+}
+
+.facebookIcon {
+
+}
+
+.googleIcon {
+
+}
+
+.appleIcon {
+
+}

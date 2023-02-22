@@ -1,0 +1,50 @@
+.imageWrapper {
+    transform: scale(0.5);
+    transform-origin: left;
+}
+
+.toggleAlignment {
+    display: flex;
+    align-items: center;
+}
+
+.toggleLabel {
+    display: inline;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777185;
+    margin: 0.25em 0.5em 0 0;
+}
+
+h1 {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0e1c4a;
+    margin: 0;
+}
+
+.locationName {
+    margin-right: 1.5rem;
+    margin-left: -1.2rem;
+}
+
+.handIcon {
+    width: 26px;
+    height: 41px;
+}
+
+.pill {
+    margin: 1.7rem;
+}
+
+.menuWrapper {
+    padding: 3px 1px 5px;
+    background-color: #e8e7ed;
+    border-radius: 25px;
+}

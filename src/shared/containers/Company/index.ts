@@ -1,0 +1,1 @@
+export { companyReducer } from './reducers';

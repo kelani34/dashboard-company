@@ -1,0 +1,1 @@
+export { WallsSvg } from './Walls';

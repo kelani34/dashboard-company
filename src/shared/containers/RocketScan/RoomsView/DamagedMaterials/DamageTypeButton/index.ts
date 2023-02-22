@@ -1,0 +1,1 @@
+export { DamageTypeButton } from './DamageTypeButton';

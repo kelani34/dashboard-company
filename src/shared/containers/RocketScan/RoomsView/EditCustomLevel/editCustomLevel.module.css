@@ -1,0 +1,36 @@
+.editLevelContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editLevelContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editIcon {
+    position: absolute;
+    right: 15px;
+    z-index: 100;
+}
+
+.editing {
+  border-bottom: 1px solid #d2cfda;
+  padding: 0px 13px 0px 16px;
+}
+
+.errorBackground form {
+  background-color: #FFF0F0;
+}
+
+.customLevelLabel {
+  width: 144px;
+  display: inline-block;
+  overflow-wrap: break-word;
+}

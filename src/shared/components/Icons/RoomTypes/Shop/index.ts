@@ -1,0 +1,1 @@
+export { ShopSvg } from './Shop';

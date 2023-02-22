@@ -1,0 +1,1 @@
+export { SingleLocation } from './SingleLocation';

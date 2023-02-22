@@ -1,0 +1,16 @@
+.roomButtonWrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    height: 50px;
+    /*width: 256px;*/
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.iconContent {
+    transform: scale(0.5);
+    position: relative;
+    left: 9px;
+    margin-right: 18px;
+}

@@ -1,0 +1,198 @@
+.SignIn {
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  width: 85%;
+  display: inline-block;
+  text-align: center;
+  color: #000000;
+}
+.crewIsWaitingContainer {
+  padding-top: 13px;
+  padding-bottom: 43px;
+}
+.crewIsWaiting {
+  height: 24px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.smsIcon {
+  width: 17px;
+}
+.continueButton {
+  background: #fff !important;
+  border: 1px solid #9a00ff !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.smsIconSpan,
+.emailIconSpan {
+  padding-right: 5px;
+}
+.spanSmsContainer {
+  text-align: left;
+  padding: unset;
+}
+.buttonEmail {
+  padding-top: 30px;
+}
+.removePaddingLeft {
+  padding-left: unset;
+}
+.removePaddingRight {
+  padding-right: unset;
+}
+.orAlterPadding {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  width: 11.6666666667%;
+  display: flex;
+  justify-content: center;
+}
+.or {
+  min-height: 33px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #777185;
+}
+.orRowTopPadding {
+  padding-top: 30px;
+}
+.validateField,
+.invalidFieldTextBox {
+  background-image: unset !important;
+  border-color: unset !important;
+  border-top: unset !important;
+  border-left: unset !important;
+  border-right: unset !important;
+  border-radius: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-size: unset !important;
+  padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
+  padding-left: 8px !important;
+  padding-right: 0.75rem !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Black */
+  color: #000000 !important;
+}
+.inputWrapper {
+  position: relative;
+}
+.validField {
+  border-bottom: 1px solid #d2cfda !important;
+}
+.invalidField {
+  background-color: #fff0f0;
+  border-bottom: unset !important;
+  margin: unset !important;
+}
+.validateField::placeholder {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* Placeholder text color */
+  color: #b3abc6;
+  /* opacity: 1;  */
+  /* Firefox */
+}
+.validateField:focus,
+.invalidFieldTextBox:focus {
+  box-shadow: unset !important;
+  background-color: unset;
+}
+
+.validateFieldWithIcon .is-valid {
+  background-image: unset !important;
+}
+.emailLabel {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b476b;
+  padding-left: 8px;
+}
+.invalidFieldFeedback {
+  border-top: 1px solid #e82828 !important;
+  background-color: #fff !important;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
+.hideErrorMessage {
+  display: none;
+}
+.invalidFieldTextBox {
+  /* border-bottom: unset !important; */
+  border: unset !important;
+  margin: unset !important;
+  background-color: #fff0f0 !important;
+}
+.signInForm {
+  max-width: 365px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.inputContainer {
+  margin-top: 26px;
+}
+.buttonWidth {
+  max-width: 280px;
+}
+.eyeIcon {
+  position: absolute;
+  right: 8px;
+}
+
+@media screen and (max-width: 767px){
+  .desktopForgotPassword {
+    display: none;
+  }
+  .signInMobile {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .mobileForgotPassword {
+    display: none;
+  }  
+}

@@ -1,0 +1,13 @@
+.projectNotes {
+    margin-top: 24px;
+    position: relative;
+}
+
+.notesFilterAndSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 3rem);
+    margin: 0 auto;
+}

@@ -1,0 +1,1 @@
+export { ElectricalRoomSvg } from "./ElectricalRoom";

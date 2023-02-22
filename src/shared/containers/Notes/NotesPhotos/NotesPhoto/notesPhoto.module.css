@@ -1,0 +1,8 @@
+.imageColumn {
+  flex: 1;
+}
+.notesColumn {
+  flex: 10;
+  margin-left: 16px;
+  width: 60%;
+}

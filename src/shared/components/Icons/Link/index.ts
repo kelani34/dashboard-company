@@ -1,0 +1,1 @@
+export { LinkSvg } from './Link';

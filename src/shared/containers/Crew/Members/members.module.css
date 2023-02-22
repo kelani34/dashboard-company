@@ -1,0 +1,12 @@
+.membersBase {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  margin-right: 24px;
+}

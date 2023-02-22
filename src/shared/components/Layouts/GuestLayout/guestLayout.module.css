@@ -1,0 +1,60 @@
+/* Bootstrap override */
+/* Remove the padding which was triggering scrollbars */
+/* .container-fluid-override {
+  padding: 0 !important;
+} */
+
+/* Remove the margins which were triggering scrollbars */
+.row-override {
+  margin: 0 !important;
+}
+.noPadding {
+  padding: 0 !important;
+}
+/* End Bootstrap override */
+
+/* Custom Css */
+.leftContainer {
+  background: linear-gradient(149.9deg, #6d00e6 33.97%, #9601ff 78.44%);
+  min-height: 100vh;
+  padding: 0 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rightContainer {
+  height: 100vh;
+  background: #fff;
+  overflow: auto;
+}
+
+.logoDesktop {
+  max-width: 300px;
+  margin-bottom: 3em;
+}
+.logoDesktop > path {
+  fill: #ffffff;
+}
+.leftContainerCopy {
+  color: #ffffff;
+  max-width: 380px;
+  margin-top: 5em;
+}
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(1.12em + 0.6vw);
+  line-height: calc(1.12em + 0.6vw);
+  margin-bottom: 0.7rem;
+  text-align: left;
+}
+
+.lede {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}

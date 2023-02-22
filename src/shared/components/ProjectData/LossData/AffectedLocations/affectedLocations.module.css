@@ -1,0 +1,15 @@
+.subHeader {
+    height: 32px;
+    margin: 16px 0;
+    color: #5b476b;
+  }
+  .mainTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .secondaryTitle {
+    font-size: 14px;
+    line-height: 21px;
+  }

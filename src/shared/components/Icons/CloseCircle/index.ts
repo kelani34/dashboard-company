@@ -1,0 +1,1 @@
+export { CloseCircleSvg } from "./CloseCircle";

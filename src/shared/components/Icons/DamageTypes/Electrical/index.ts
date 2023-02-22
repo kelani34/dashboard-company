@@ -1,0 +1,1 @@
+export { ElectricalSvg } from './Electrical';

@@ -1,0 +1,25 @@
+.thumbOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 98%;
+  max-width: 107px !important;
+  max-height: 107px !important;
+  border-radius: 8px;
+  margin: 0 3px 3px 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140px !important;
+  max-height: 140px !important;
+}
+.overlayCopy {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44.7893px;
+  line-height: 45px;
+  color: #ffffff;
+}

@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+}
+
+.isPhotoSelected {
+  opacity: 0.7!important;
+}
+
+.photoNote {
+  position: absolute;
+  left: 12px;
+  bottom: 16px;
+}
+
+.topIcons {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.photoBookmark {
+  margin-right: 8px;
+}
+
+.photoFlag {
+  margin-right: 8px;
+}
+
+.bottomIcons {
+  position: absolute;
+  bottom: 10px;
+  right: 2px;
+}
+
+.dimensions {
+  /*max-height: 140px !important;*/
+  /*max-width: 140px !important;*/
+  border-radius: 8px;
+  margin: 6px;
+}
+
+.imgReSizing {
+  /*object-fit: contain; /* This will force the image to resize to the container*/
+  object-fit: cover; /* This will fill the container with the image */
+}
+.imgSpinner {
+  padding-top: 2rem;
+}
+.placeHolderText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(245, 229, 9);
+}
+
+.loadingImageBackground {
+  background: linear-gradient(134.11deg, #e8e7ed 2.7%, #d2cfda 53.61%, #e8e7ed 95.79%);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+.pointer {
+  cursor: pointer;
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s linear 1s, opacity 300ms;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+  height: 0;
+  width: 0;
+  display: none;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,1 @@
+export { ProjectsSvg } from './Projects';

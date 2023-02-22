@@ -1,0 +1,1 @@
+export { DamagedMaterialsPlaceholder } from './DamagedMaterialsPlaceholder';

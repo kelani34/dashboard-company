@@ -1,0 +1,57 @@
+.main {
+    padding: 8px 0;
+    border-bottom: 1px solid #E8E7ED;
+}
+
+.mainActive {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+}
+
+.title, .titleActive, .uid, .numbers, .alias {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titleActive {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9A00FF;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.uid {
+    width: 40%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: #777185;
+}
+
+.numbers {
+    width: 60%;
+    text-align: right;
+    font-weight: normal;
+    font-size: 12.003px;
+    line-height: 20px;
+    color: #777185;
+}
+
+.alias {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}

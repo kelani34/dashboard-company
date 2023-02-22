@@ -1,0 +1,12 @@
+export { LossData } from './LossData';
+export { LossDataDamageTypeButton } from './LossDataDamageTypeButton';
+export { CustomDamageTypeModal } from './CustomDamageTypeModal';
+export { DamageTypes } from './DamageTypes';
+export { CauseOfDamageEdit } from './CauseOfDamageEdit';
+export { CategoryOfDamageEdit } from './CategoryOfDamageEdit';
+export { DateOfLossEdit } from './DateOfLossEdit';
+export { DamageInfo } from './DamageInfo';
+export { AffectedLocationModal } from './AffectedLocationModal';
+export { AffectedLocations } from './AffectedLocations';
+export { LocationRow } from './LocationRow';
+export { AffectedLocationDamageTypeButton } from './AffectedLocationDamageTypeButton';

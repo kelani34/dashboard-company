@@ -1,0 +1,30 @@
+.notesFilter {
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.filterButton {
+  height: 32px;
+  width: 32px;
+  background: #e8e7ed;
+  border-radius: 5px;
+  margin-left: 16px;
+  padding: unset;
+}
+.filterButton:focus {
+  box-shadow: none;
+}
+.active {
+  background: #5b476b;
+}
+.active svg {
+  fill: #ffffff;
+}
+.active svg path {
+  stroke: #ffffff;
+}

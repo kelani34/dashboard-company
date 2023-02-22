@@ -1,0 +1,36 @@
+.multiUnitWrapper {
+  width: 100%;
+  min-height: 600px;
+  padding: 0 26px;
+  position: relative;
+}
+
+.containerWrapper {
+  padding: 0 1rem;
+}
+
+.placeholder {
+  user-select: none;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #b3abc6;
+  margin-left: 24px;
+}
+
+.tilesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.unitText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d00e6;
+  border-bottom: 1px solid #e8e7ed;
+}

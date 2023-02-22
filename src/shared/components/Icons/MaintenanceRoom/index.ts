@@ -1,0 +1,1 @@
+export { MaintenanceRoomSvg } from './MaintenanceRoom';

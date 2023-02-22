@@ -1,0 +1,9 @@
+.projectsTabWrapper {
+    background-color: #ffffff;
+}
+
+.tabsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

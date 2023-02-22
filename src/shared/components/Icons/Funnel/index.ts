@@ -1,0 +1,1 @@
+export { FunnelSvg } from "./Funnel";

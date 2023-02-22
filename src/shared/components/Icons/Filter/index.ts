@@ -1,0 +1,1 @@
+export { FilterSvg } from "./Filter";

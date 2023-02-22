@@ -1,0 +1,17 @@
+.noteContent {
+    word-wrap: break-word;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    white-space: pre-line
+}
+
+.noteEdited {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777185;
+}

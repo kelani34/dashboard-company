@@ -1,0 +1,26 @@
+.unitTileCard {
+    height: 155px;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(154, 0, 255, 0.5);
+    border-radius: 10px;
+    margin: 0 16px 16px 0;
+    background-color: unset !important;
+}
+
+.unitTileCard:hover {
+    box-shadow: 0px 6px 12px rgba(142, 134, 163, 0.2);
+    transition: ease-in-out 0.2s;
+}
+
+.imageCaption {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+}

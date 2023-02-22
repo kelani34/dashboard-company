@@ -1,0 +1,1 @@
+export { LocationRoomsMenu } from './LocationRoomsMenu';

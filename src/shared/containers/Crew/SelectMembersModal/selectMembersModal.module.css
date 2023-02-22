@@ -1,0 +1,26 @@
+.modalTitle {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #5B476B;
+    width: 100%;
+}
+
+.modalHeader {
+    text-align: center;
+    border-bottom: none!important;
+}
+
+.modalBody {
+    margin: 0 24px;
+    padding: 8px 0 24px;
+    border-top: 1px solid #E8E7ED;
+    position: relative;
+}
+
+.modalDialog {
+    max-width: 600px;
+}

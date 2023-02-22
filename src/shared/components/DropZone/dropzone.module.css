@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.003px;
+  line-height: 20px;
+  text-align: center;
+  color: #777185;
+}
+.hasImages {
+  flex-direction: row !important;
+  align-items: baseline !important;
+  padding-bottom: 1.5rem;
+}
+.dropZoneWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 1px dashed #d2cfda;
+  border-radius: 8px;
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+.uploadIcon {
+  height: 28px !important;
+  width: 28px !important;
+  text-align: center;
+  padding-top: 40px;
+}
+.messageContainer {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

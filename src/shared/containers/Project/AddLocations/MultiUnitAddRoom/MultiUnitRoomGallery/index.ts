@@ -1,0 +1,1 @@
+export { MultiUnitRoomGallery } from "./MultiUnitRoomGallery";

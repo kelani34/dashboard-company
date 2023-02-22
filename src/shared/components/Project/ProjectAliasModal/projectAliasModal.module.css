@@ -1,0 +1,34 @@
+.modalTitle {
+  font-family: IBM Plex Sans;
+  text-align: center;
+  width: 100%;
+}
+
+.text {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  text-align: center;
+}
+
+.validField {
+  border-bottom: 1px solid #d2cfda !important;
+}
+
+.invalidField {
+  background-color: #fff0f0;
+  border-bottom: 1px solid #e82828 !important;
+}
+
+.buttonRow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+  width: 80px;
+}

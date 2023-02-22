@@ -1,0 +1,1 @@
+export { CeilingSvg } from './Ceiling';

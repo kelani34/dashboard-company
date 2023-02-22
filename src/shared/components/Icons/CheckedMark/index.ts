@@ -1,0 +1,1 @@
+export { CheckedMarkSvg } from './CheckedMark';

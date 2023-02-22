@@ -1,0 +1,11 @@
+.container {
+  margin: auto 24px;
+  border-radius: 10px;
+  background-color: #e3d5fd;
+}
+
+.itemsRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}

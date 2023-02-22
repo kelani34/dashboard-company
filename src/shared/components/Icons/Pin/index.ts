@@ -1,0 +1,1 @@
+export { PinSvg } from './Pin';

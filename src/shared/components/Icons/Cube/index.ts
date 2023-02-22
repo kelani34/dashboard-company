@@ -1,0 +1,1 @@
+export { CubeSvg } from './Cube';

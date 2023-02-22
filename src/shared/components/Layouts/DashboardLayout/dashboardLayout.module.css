@@ -1,0 +1,46 @@
+.dashboardBase {
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    left: 0;
+    padding-left: 265px;
+    transition: padding-left 300ms;
+}
+
+.navBar {
+    width: 100%;
+    transition: width 1s;
+}
+
+.content {
+    padding: 20px 25px;
+    width: 100%;
+}
+
+/*
+ * sidebar closed styles
+*/
+
+.sideBarClosed .mainContent {
+    padding-left: 70px;
+}
+
+/*
+ * Media queries
+*/
+
+@media screen and (max-width: 991px) {
+    .mainContent {
+        width: 100%;
+        padding-left: 0;
+    }
+}

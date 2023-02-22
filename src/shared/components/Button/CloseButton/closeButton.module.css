@@ -1,0 +1,20 @@
+.btnBase {
+    color: #fff;
+    background: linear-gradient(135deg, #9601FF 0%, #6D00E6 100%);
+    transition: color 300ms ease-out, background 300ms ease-out;
+    width: 56px;
+    height: 56px;
+    padding: 0rem !important;
+}
+
+.closeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.closeButtonIcon {
+    transform-origin: center;
+    transform: rotate(45deg) scale(2);
+}

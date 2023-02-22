@@ -1,0 +1,26 @@
+.dimensions {
+  height: 140px !important;
+  width: 140px !important;
+  border-radius: 8px;
+  margin: 0.25em;
+}
+.loadingImageBackground {
+  background: linear-gradient(134.11deg, #e8e7ed 2.7%, #d2cfda 53.61%, #e8e7ed 95.79%);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

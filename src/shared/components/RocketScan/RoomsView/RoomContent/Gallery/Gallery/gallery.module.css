@@ -1,0 +1,49 @@
+.container {
+  margin-top: 1rem;
+  z-index: 1;
+  padding: 0;
+}
+.opacity {
+  opacity: 0.5;
+}
+.container:last-child {
+  border-bottom: none;
+}
+.flexCenterVertical {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.flexCenterHorizontal {
+  display: flex;
+  justify-content: center;
+}
+.progressBarContainer {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 1rem;
+}
+.progressOpacityHidden {
+  opacity: 0;
+}
+.progressBarHidden {
+  display: none;
+}
+.dropZoneContainer {
+  margin-bottom: 20px;
+}
+.title {
+  height: 24px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777185;
+}
+.progressBackgroundColour {
+  background-color: #40c9ae !important;
+}

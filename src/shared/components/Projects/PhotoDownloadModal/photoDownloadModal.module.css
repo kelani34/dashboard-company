@@ -1,0 +1,68 @@
+.modalHeader {
+  border: none;
+  padding-top: 16px;
+}
+
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+}
+
+.modalDialog {
+  max-width: 520px;
+}
+
+.modalBody {
+  margin: 0 24px;
+  padding: 24px 0;
+  border-top: 1px solid #E8E7ED;
+}
+
+.text {
+  margin: 24px 0;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.buttonGroup {
+  width: 327px;
+  margin: 40px auto 0;
+}
+
+.actionButton {
+  width: 151px;
+  height: 44px;
+}
+
+.actionButton:disabled {
+  background: #d8d7dd;
+  border: unset;
+  color: #5b476b;
+}
+
+.successCloseButton {
+  width: 152px;
+  height: 44px;
+
+  background: linear-gradient(316.14deg, #6d00e6 1.84%, #9a00ff 96.25%);
+  border: 1px solid #fcf7ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}

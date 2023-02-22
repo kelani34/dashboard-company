@@ -1,0 +1,1 @@
+export { AffectedLocationModal } from './AffectedLocationModal';

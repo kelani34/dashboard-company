@@ -1,0 +1,16 @@
+.pillButtonBase {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #b3abc6;
+  padding: 6px 16px 5px;
+}
+.pillButtonBase:hover,
+.pillButtonBase:focus {
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}

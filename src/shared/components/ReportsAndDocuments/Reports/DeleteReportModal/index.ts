@@ -1,0 +1,1 @@
+export { DeleteReportModal } from './DeleteReportModal';

@@ -1,0 +1,19 @@
+.floorSelectBase {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.dropDown {
+  max-height: 245px;
+}
+.floorSelectBase > input {
+  background-color: transparent;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-bottom: none !important;
+}

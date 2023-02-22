@@ -1,0 +1,164 @@
+.question {
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  width: 85%;
+  display: inline-block;
+}
+.crewIsWaitingContainer {
+  padding-top: 34px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.crewIsWaiting {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #777185;
+  max-width: 325px;
+}
+.formContainer {
+  max-width: 430px;
+}
+.smsIcon {
+  width: 17px;
+}
+.continueButton {
+  background: #fff !important;
+  border: 1px solid #9a00ff !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.smsIconSpan,
+.emailIconSpan {
+  padding-right: 5px;
+}
+.spanSmsContainer {
+  text-align: left;
+  padding: unset;
+}
+.buttonEmail {
+  padding-top: 30px;
+}
+.removePaddingLeft {
+  padding-left: unset;
+}
+.removePaddingRight {
+  padding-right: unset;
+}
+.orAlterPadding {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  width: 11.6666666667%;
+  display: flex;
+  justify-content: center;
+}
+.or {
+  min-height: 33px;
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  align-items: center;
+  text-align: center;
+  grid-gap: 20px;
+  width: 80%;
+  max-width: 620px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+.or:before,
+.or:after {
+  content: "";
+  border-top: 1px solid #e8e7ed;
+}
+
+.orRowTopPadding {
+  padding-top: 40px;
+}
+.validateField {
+  background-image: unset !important;
+  border-color: unset !important;
+  border-top: unset !important;
+  border-left: unset !important;
+  border-right: unset !important;
+  border-radius: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-size: unset !important;
+  padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
+  padding-left: 0.08rem !important;
+  padding-right: 0.75rem !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Black */
+  color: #000000 !important;
+}
+.validField {
+  border-bottom: 1px solid #d2cfda !important;
+}
+.invalidField {
+  background-color: #fff0f0;
+  border-bottom: unset !important;
+  margin: unset !important;
+}
+.validateField::placeholder {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* Placeholder text color */
+  color: #b3abc6;
+  /* opacity: 1;  */
+  /* Firefox */
+}
+.validateField:focus {
+  box-shadow: unset !important;
+  background-color: unset;
+}
+
+.validateFieldWithIcon .is-valid {
+  background-image: unset !important;
+}
+.emailLabel {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b476b;
+}
+.invalidFieldFeedback {
+  border-top: 1px solid #e82828 !important;
+  background-color: #fff !important;
+  /* width: 100% !important;
+  max-width: 100%; */
+}

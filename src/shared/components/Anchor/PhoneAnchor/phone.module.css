@@ -1,0 +1,12 @@
+.text {
+  padding-left: 15px;
+}
+
+.phoneAnchorBase {
+  text-decoration: none;
+  color: #777185;
+}
+
+.phoneInfo svg {
+  transform: scale(0.6);
+}

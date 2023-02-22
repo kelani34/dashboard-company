@@ -1,0 +1,1 @@
+export { EditAddressModal } from './EditAddressModal';

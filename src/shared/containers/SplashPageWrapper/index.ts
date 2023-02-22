@@ -1,0 +1,1 @@
+export { SplashPageWrapper } from './SplashPageWrapper';

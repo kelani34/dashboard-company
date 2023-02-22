@@ -1,0 +1,16 @@
+.addRoomBase {
+    max-width: 296px;
+    margin-bottom: 34px;
+}
+
+.addRoomBase > button {
+    width: 256px !important;
+    margin-bottom: 1em;
+}
+
+.buttonDisabled {
+    background: #E0DFE5;
+    border-color: #E0DFE5;
+    color: #373145;
+    transition: none;
+}

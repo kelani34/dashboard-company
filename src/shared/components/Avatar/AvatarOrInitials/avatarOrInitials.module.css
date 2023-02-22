@@ -1,0 +1,14 @@
+.initials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5b476b;
+  height: 40px;
+  width: 40px;
+  background-color: #d2cfda;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}

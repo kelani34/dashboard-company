@@ -1,0 +1,14 @@
+.p {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #B3ABC6;
+    margin-bottom: 16px;
+}
+
+.icon {
+    align-self: center;
+}

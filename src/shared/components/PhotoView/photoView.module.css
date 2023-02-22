@@ -1,0 +1,19 @@
+.imageColumn {
+  background: #d2cfda;
+  min-height: 100vh;
+}
+.imageColumn img {
+  /*width: 45% !important;*/
+  /*max-width: 600px;*/
+  /*height: auto !important;*/
+  /*border-radius: 5px;*/
+  /*border: none;*/
+}
+.backArrow {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}

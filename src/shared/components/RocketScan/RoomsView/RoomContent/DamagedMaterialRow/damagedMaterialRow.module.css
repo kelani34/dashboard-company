@@ -1,0 +1,24 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.materialLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777185;
+    transition: color 100ms ease-in-out;
+}
+
+.icon {
+    margin-right: 16px;
+}
+
+.checked {
+    color:  #000000;
+}

@@ -1,0 +1,1 @@
+export { GenerateReportWrapper } from './GenerateReportWrapper';

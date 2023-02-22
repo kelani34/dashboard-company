@@ -1,0 +1,12 @@
+.errorMessageWrapper {
+    margin: 25px 0;
+}
+
+.errorMessage {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E82828;
+}

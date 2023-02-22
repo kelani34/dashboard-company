@@ -1,0 +1,35 @@
+.imageButtonCard {
+  height: 124px;
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d2cfda;
+  border-radius: 9px;
+  margin: 0 0 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 4.4526px 6.6789px rgba(142, 134, 163, 0.08);
+}
+
+.imageButtonCard:hover {
+  border-color: #9a00ff;
+  transition: ease-in-out 0.2s;
+}
+.activeList {
+  border-color: #9a00ff;
+}
+
+.imageCaption {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.listHasItems {
+  background-color: #f4e5ff;
+}

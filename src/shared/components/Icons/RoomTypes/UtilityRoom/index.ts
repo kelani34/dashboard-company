@@ -1,0 +1,1 @@
+export { UtilityRoomSvg } from './UtilityRoom';

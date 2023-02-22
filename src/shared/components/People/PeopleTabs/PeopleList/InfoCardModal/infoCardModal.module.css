@@ -1,0 +1,130 @@
+.modalContent {
+  height: 420px;
+  padding: 1.3em 1.5em;
+  box-shadow: 0px 24px 44px rgba(119, 113, 133, 0.2);
+  border-radius: 5px;
+}
+.modalDialog {
+  max-width: 648px;
+}
+.modalHeader {
+  padding: 0 0 0.5em 0;
+  height: 40px;
+  border-color: #e8e7ed;
+}
+.modalHeader > h5 {
+  align-items: flex-start;
+}
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5b476b;
+  margin-left: -2.9em;
+}
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.3rem 0 1.1rem 0;
+}
+
+.infoModalHeader {
+  width: 100%;
+  max-width: 343px;
+  border-bottom: 1px solid #d2cfda;
+  padding-bottom: 21px !important;
+}
+.initials > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 22.4px;
+  line-height: 28px;
+  color: #5b476b;
+  height: 56px;
+  width: 56px;
+  background-color: #d2cfda;
+  border: 0.7px solid #ffffff;
+  border-radius: 2em;
+  margin-right: 24px;
+}
+
+.initials img {
+  width: 56px;
+  height: 56px;
+  margin-right: 24px;
+}
+
+.headerName {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.buttonsWrapper {
+  margin-top: 1.7em;
+}
+.modalButtons {
+  background-color: #ffffff;
+  width: 327px;
+  height: 44px;
+}
+.modalPill {
+  justify-content: center;
+  color: #777185;
+  border: 1px solid #d2cfda;
+  border-radius: 24px;
+}
+.modalPill:hover,
+.modalPill:focus {
+  color: #777185;
+}
+
+.email {
+  justify-content: center;
+  color: #777185 !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+
+.edit {
+  color: #9a00ff;
+  border-color: #9a00ff;
+  border-radius: 5px;
+}
+.edit:hover,
+.edit:focus {
+  color: #ffffff;
+  background-color: #9a00ff;
+}
+.modalFooter {
+  padding: 1rem 0 0 0;
+  border: none;
+  justify-content: center;
+}
+
+.phone {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777185;
+}
+.nonAdmin {
+  height: 44px;
+}
+
+.roleTag {
+  margin-top: 14px;
+  margin-right: 5px;
+}

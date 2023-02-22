@@ -1,0 +1,122 @@
+.countryCodesWrapper .itemHeading {
+  border: none;
+  width: 90px;
+}
+
+.countryCodesWrapper .menuBody {
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  margin-top: 7px;
+  width: 366px;
+  border: 1px solid #d2cfda;
+  border-radius: 4px;
+}
+.countryCodesWrapper .currentCountry,
+.countryCodesWrapper .countryOption {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #ffffff;
+  color: #777185;
+  border-radius: 0;
+  padding: 8px;
+}
+.countryCodesWrapper .countryOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom: 1px solid #d2cfda;
+}
+.iconNameArea > svg {
+  margin-right: 8px;
+}
+.countryCodesWrapper .countryOption:last-child {
+  border-bottom: none;
+  border-radius: 0 0 4px 4px;
+}
+.countryCodesWrapper .countryOption:first-child {
+  border-radius: 4px 4px 0 0;
+}
+.countryCodesWrapper .currentCountry {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid #d2cfda;
+  border-radius: 0 !important;
+}
+.openMenu {
+  border-bottom-color: rgba(154, 0, 255, 0.5) !important;
+}
+
+.countryCodesWrapper .currentCountry > svg {
+  transform: scale(0.7);
+  margin-top: 2px;
+}
+.countryCodesWrapper .currentCountry > input {
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  text-align: center;
+}
+.countryCodesWrapper .currentCountry > input:focus-visible {
+  outline: none;
+}
+.countryCodesWrapper .currentCountry:after {
+  margin-left: unset;
+}
+.countryCodesWrapper .currentCountry:not(.collapsed) {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.countryCodesWrapper .currentCountry:not(.closed)::after {
+  transform: rotate(-180deg);
+}
+
+.countryCodesWrapper .countryOption {
+  width: 100%;
+  text-align: left;
+}
+
+.countryCodesWrapper .countryOption:hover,
+.countryCodesWrapper .countryOption:focus {
+  background-color: #f4e5ff;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+.currentSelection {
+  background-color: #f4e5ff !important;
+  font-weight: 500 !important;
+  color: #9a00ff !important;
+}
+
+.readOnly {
+  cursor: unset !important;
+}
+
+.readOnly::after {
+  display: none;
+}
+
+.readOnly svg,
+input {
+  cursor: unset !important;
+}
+
+.label {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b476b;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,71 @@
+.toastBase {
+    height: 48px !important;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 1rem 0.5rem !important;
+    transition: opacity 0.15s linear;
+}
+.toast-body-override {
+    width: 95%;
+    padding: unset !important;
+}
+.toastCloseButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+}
+.toastCloseButton {
+    border-radius: 50% !important;
+    color: #5b476b !important;
+    padding: 0.25rem !important;
+    background-color: #fff !important;
+    opacity: unset !important;
+    /* This is the actual svg pulled from bootstrap.  not the 0.5em beside center on the 2nd line.  This is what has changed */
+    background: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+    center/0.5em auto no-repeat;
+}
+.toastIcon {
+    padding-left: 10px;
+}
+.toastCloseButton:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: unset !important;
+}
+.toastText {
+    font-family: IBM Plex Sans, serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #5b476b !important;
+}
+
+.toastSuccess {
+    background-color: #dcf5f0;
+    border-bottom: 1px solid #40c9ae !important;
+}
+
+.toastWarning {
+    background-color: #fff0f0;
+    border-bottom: 1px solid #e82828;
+}
+
+.toastCloseIcon {
+    position: absolute;
+    right: 22px;
+}
+
+@media (max-width: 768px) {
+    .toastBase {
+        width: 100%;
+        padding: 12px 66px 12px 22px;
+    }
+
+    .toastText {
+        font-size: 14px;
+    }
+}

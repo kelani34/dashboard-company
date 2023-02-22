@@ -1,0 +1,1 @@
+export { NoCompanySvg } from "./NoCompany";

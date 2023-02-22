@@ -1,0 +1,33 @@
+.roomBase {
+    border: 1px solid rgba(154, 0, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin-bottom: 39px;
+    transition: ease-in-out 300ms;
+}
+
+.imageWrapper {
+    transform: scale(0.5);
+    transform-origin: left;
+}
+
+.roomName {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #6D00E6;
+}
+
+.menuWrapper {
+    padding: 3px 1px 5px;
+    background-color: #e8e7ed;
+    border-radius: 25px;
+}
+
+.albumsBase {
+    min-height: 250px;
+}

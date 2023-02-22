@@ -1,0 +1,1 @@
+export { NotesPlaceholder } from './NotesPlaceholder';

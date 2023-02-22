@@ -1,0 +1,1 @@
+export { TabContentHeader } from './TabContentHeader';

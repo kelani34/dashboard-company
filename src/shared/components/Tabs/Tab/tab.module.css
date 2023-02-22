@@ -1,0 +1,22 @@
+.anchor {
+  height: 41px;
+  border: unset !important;
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+  color: #9a00ff;
+  background: #ffffff !important;
+  padding: 18px 26px;
+}
+.anchor:hover,
+.anchor:focus {
+  color: #9a00ff;
+  cursor: pointer;
+  isolation: unset;
+}
+.anchorCommon {
+  font-style: normal !important;
+  font-family: IBM Plex Sans !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 500;
+}

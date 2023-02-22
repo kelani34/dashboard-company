@@ -1,0 +1,78 @@
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #5b476b;
+  text-align: center;
+  margin: auto;
+}
+
+.modalHeader {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0.5em 0;
+  border-color: #e8e7ed;
+  height: 40px;
+}
+
+.modalBody {
+  padding: 0px 0px 12px 0px !important;
+  height: auto;
+}
+
+.modalDialog {
+  max-width: 648px;
+}
+
+.modalContent {
+  padding: 1.3em 1.5em;
+  box-shadow: 0px 24px 44px rgba(119, 113, 133, 0.2);
+  border-radius: 5px;
+  max-width: 648px;
+}
+
+.selectedAmount {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  border-bottom: 1px solid #e8e7ed;
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+
+.selectedPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+  margin: 16px auto;
+}
+
+.generateLinkButton {
+  justify-content: unset;
+  width: 100%;
+  max-width: 420px;
+  height: 44px;
+  margin: 24px auto 8px;
+  padding-left: 17px;
+  padding-right: unset;
+}
+
+.buttonContent {
+  display: flex;
+}
+
+.buttonText {
+  padding-left: 10px;
+}
+
+.chevron {
+  margin-right: 14px;
+  margin-left: auto;
+}

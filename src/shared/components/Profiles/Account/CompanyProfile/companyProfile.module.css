@@ -1,0 +1,97 @@
+.container {
+  border: 1px solid #d2cfda;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 48px 24px 72px 24px;
+}
+
+.editContainer {
+  width: 100%;
+}
+
+.editButton {
+  float: right;
+  margin-top: 24px;
+  margin-right: 24px;
+  width: 94px;
+  height: 48px;
+  white-space: nowrap;
+}
+
+.components {
+  position: relative;
+}
+
+.header {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  padding-top: 24px;
+  padding-left: 25px;
+}
+
+.buttons {
+  float: right;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+.saveButton,
+.cancelButton {
+  display: inline-flex;
+  margin: 12px;
+  height: 48px;
+}
+
+.saveButton {
+  white-space: nowrap;
+  width: 168px;
+}
+
+.cancelButton {
+  width: 115px;
+}
+
+.editForm {
+  display: flex;
+}
+
+.buttonsBottom {
+  text-align: right;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.avatarContainer {
+  max-width: 128px;
+}
+
+.avatar {
+  object-fit: contain;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+
+.initials {
+  width: 80px !important;
+  height: 80px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  color: #5b476b;
+  background-color: #d2cfda;
+  border: 1px solid #ffffff;
+  margin-left: 50px;
+  margin-top: 32px;
+  border-radius: 50%;
+}

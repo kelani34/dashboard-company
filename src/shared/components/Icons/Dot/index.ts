@@ -1,0 +1,1 @@
+export { DotSvg } from './Dot';

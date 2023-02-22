@@ -1,0 +1,14 @@
+.btnBase {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-color: #e82828 !important;
+  color: #e82828 !important;
+}

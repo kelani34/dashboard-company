@@ -1,0 +1,102 @@
+.container {
+    min-width: 245px;
+    min-height: 130px;
+    background: #ffffff;
+    border: 1px solid #d2cfda;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px 15px;
+    margin: 10px;
+}
+
+.highlight {
+    background-color: #F4E5FF !important;
+}
+
+.container:hover {
+    border: 1px solid rgba(154, 0, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 6px 12px rgba(142, 134, 163, 0.2);
+    border-radius: 5px;
+}
+
+.names {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+}
+
+.primaryName {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.secondaryName {
+    font-weight: normal;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: #777185;
+}
+
+.avatar {
+    background-blend-mode: normal;
+    border: 2px solid #ffffff;
+    flex: none;
+    order: 0;
+    align-self: flex-end;
+    flex-grow: 0;
+    margin: 0 12px;
+}
+
+.body {
+    margin-top: 21px;
+    padding-top: 5px;
+    border-top: 1px solid #e8e7ed;
+}
+
+.highlight .body {
+    border-top: 1px solid rgba(154, 0, 255, 0.5);
+}
+
+.email,
+.phone {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.email a,
+.phone a {
+    justify-content: flex-start !important;
+    color: #000000;
+}
+
+.email a > span:first-child,
+.phone a > span:first-child {
+    width: 13px;
+    height: 13px;
+    padding: 0 !important;
+}
+
+.email a > span:nth-child(2),
+.phone a > span:nth-child(2) {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.email a {
+    margin-bottom: 0.15rem;
+}
+
+.email a > span:first-child svg,
+.phone a > span:first-child svg {
+    transform: scale(0.4);
+    transform-origin: top left;
+}

@@ -1,0 +1,1 @@
+export { EditSvg } from './Edit';

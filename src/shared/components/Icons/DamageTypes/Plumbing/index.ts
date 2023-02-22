@@ -1,0 +1,1 @@
+export { PlumbingSvg } from './Plumbing';

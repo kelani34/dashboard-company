@@ -1,0 +1,1 @@
+export { PhotoFlagSvg } from './PhotoFlag';

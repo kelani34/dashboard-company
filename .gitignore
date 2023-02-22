@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.cache
+
+# Packages #
+######################
+_resources/*
+node_modules/*
+bower_modules/*
+bower_components/*
+composer.lock
+build/*
+dist/*
+_lessons/*
+storybook-static/*
+coverage/*
+
+# Custom #
+######################
+webroot/api/vendor/*
+
+# local env #
+######################
+.env.development.local
+node_modules
+.idea/

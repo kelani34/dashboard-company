@@ -1,0 +1,4 @@
+.damagedMaterialViewList {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.googleMapBase {
+    width: 100%;
+    height: calc(100vh - 95px);
+}
+
+.header {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    color: #777185;
+}
+
+.tagline {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #9692a0;
+}

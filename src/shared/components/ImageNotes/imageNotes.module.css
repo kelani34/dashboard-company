@@ -1,0 +1,56 @@
+.notesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #e8e7ed;
+}
+.colouredButtonsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.notesHeader button {
+  display: flex;
+  align-items: center;
+}
+.notesHeader .deleteButton svg {
+  transform: scale(0.7);
+}
+.notesHeader .deleteButton span {
+  color: #e82828;
+}
+.notesHeader .deleteButton svg path {
+  fill: #e82828;
+}
+.notesHeader .optionsButton {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9a00ff;
+}
+.notesHeader .optionsButton svg path {
+  fill: #9a00ff;
+}
+.optionsIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9a00ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  margin-right: 0.7em;
+}
+.breadCrumb {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777185;
+  margin-bottom: 0;
+  padding-top: 16px;
+  text-align: center;
+  padding: 0 !important;
+}

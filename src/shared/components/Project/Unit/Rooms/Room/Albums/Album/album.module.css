@@ -1,0 +1,14 @@
+.albumTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777185;
+}
+@media screen and (min-width: 768px) {
+  .albumTitle {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}

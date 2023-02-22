@@ -1,0 +1,23 @@
+.header {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #5b476b;
+
+  margin: 0 24px;
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid transparent;
+  border-color: #e8e7ed;
+  margin-bottom: 20px;
+}
+
+.bodyArea {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}

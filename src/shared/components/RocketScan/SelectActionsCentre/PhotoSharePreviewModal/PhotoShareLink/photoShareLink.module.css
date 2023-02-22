@@ -1,0 +1,172 @@
+.peopleIcon {
+  position: absolute;
+  transform: scale(0.5);
+  width: 40px;
+  padding-left: 25px;
+  top: -70px;
+}
+
+.linkContainer {
+  width: 420px;
+  height: 96px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 24px auto 0px;
+  border: 1px solid #777185;
+}
+
+.linkIcon {
+  padding-left: 16px;
+  padding-top: 12px;
+  border-bottom: 1px solid #777185;
+  padding-bottom: 12px;
+  margin: 0px 8px;
+}
+
+.linkText {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777185;
+  padding-left: 9px;
+}
+
+.copyIcon {
+  padding-top: 10px;
+  padding-left: 17.4px;
+}
+
+.copyText {
+  color: #5b476b;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.emailLabel {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b476b;
+  padding-left: 8px;
+}
+
+.form {
+  max-width: 420px;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+
+.sendButton {
+  position: relative;
+  width: 136px;
+  height: 44px;
+  box-shadow: none !important;
+  margin-left: auto;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.sendButton:disabled {
+  display: none;
+}
+
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b476b;
+  text-align: center;
+}
+
+.modalHeader {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0.5em 0;
+  border-color: #e8e7ed;
+  height: 40px;
+}
+
+.modalBody {
+  padding: 0px 0px 12px 0px !important;
+  height: auto;
+}
+
+.modalDialog {
+  max-width: 648px;
+}
+
+.modalContent {
+  padding: 1.3em 1.5em;
+  box-shadow: 0px 24px 44px rgba(119, 113, 133, 0.2);
+  border-radius: 5px;
+}
+
+.validateField {
+  background-image: unset !important;
+  border-color: unset !important;
+  border-top: unset !important;
+  border-left: unset !important;
+  border-right: unset !important;
+  border-radius: unset !important;
+  background-position: unset !important;
+  background-repeat: unset !important;
+  background-size: unset !important;
+  padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
+  padding-right: 0.75rem !important;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  padding-left: 8px;
+  margin-bottom: 28px;
+}
+
+.validateField:focus {
+  border-color: rgba(154, 0, 255, 0.5) !important;
+}
+.validField {
+  border-bottom: 1px solid #d2cfda !important;
+}
+
+.invalidField {
+  background-color: #fff0f0;
+  border-bottom: 1px solid #e82828 !important;
+}
+
+.validateField::placeholder {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* Placeholder text color */
+  color: #b3abc6;
+  /* opacity: 1;  */
+  /* Firefox */
+}
+
+.validateField:focus {
+  box-shadow: unset !important;
+  background-color: unset;
+}
+
+.invalidFieldFeedback {
+  background-color: #fff !important;
+  margin-top: 0 !important;
+}

@@ -1,0 +1,1 @@
+export { RoomContentBody } from './RoomContentBody';

@@ -1,0 +1,66 @@
+.headerWrapper {
+  border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+}
+
+.roomName {
+  display: block;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6d00e6;
+  margin-left: 10px;
+  margin-bottom: 0;
+  max-width: 500px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.menuWrapper {
+  padding: 3px 1px 5px;
+  background-color: #e8e7ed;
+  border-radius: 25px;
+}
+.headerTitle,
+.headerMenu {
+  align-items: center;
+}
+.headerMenu {
+  column-gap: 24px;
+  width: 375px;
+  height: 39px;
+}
+
+.caretIcon {
+  margin-left: 8px;
+}
+
+.deleteIcon {
+  margin-left: 16px;
+}
+
+.source {
+  max-width: 375px;
+}
+
+.sourcePillBadge {
+  background: #6d00e6;
+  color: #ffffff;
+  margin-top: unset;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 1240px) {
+  .headerMenu {
+    width: 100%;
+  }
+  .addHeight {
+    height: 80px;
+  }
+  .headerTitle,
+  .headerMenu {
+    align-items: flex-start;
+  }
+}

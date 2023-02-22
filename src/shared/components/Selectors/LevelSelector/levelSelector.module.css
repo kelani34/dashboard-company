@@ -1,0 +1,87 @@
+.selectorWrapper {
+  width: 203px;
+  border-radius: 5px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.selectorWrapper .menuBody {
+  padding: 0;
+}
+.selectorWrapper .currentLevel,
+.selectorWrapper .levelOption,
+.selectorWrapper .customLevelOption {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ffffff;
+  color: #777185;
+  border: none;
+  border-bottom: 1px solid #d2cfda;
+  border-radius: 0;
+  padding: 0.6em 1.15em 0.6em 1.15em;
+}
+.selectorWrapper .levelOption:last-child {
+  border-bottom: none;
+  border-radius: 0 0 5px 5px;
+  padding: 0px 13px 0px 16px;
+}
+.selectorWrapper .levelOption:first-child {
+  border-top: 1px solid #d2cfda;
+}
+.selectorWrapper .currentLevel {
+  font-weight: 600;
+  border-bottom: none;
+}
+
+.selectorWrapper .currentLevel:not(.collapsed) {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.selectorWrapper .currentLevel:not(.closed)::after {
+  transform: rotate(-180deg);
+}
+
+.selectorWrapper .levelOption,
+.selectorWrapper .customLevelOption {
+  width: 100%;
+  text-align: left;
+}
+
+.selectorWrapper .levelOption:hover,
+.selectorWrapper .levelOption:focus,
+.selectorWrapper .customLevelOption:hover,
+.selectorWrapper .customLevelOption:focus {
+  background-color: #f4e5ff;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+.selectorWrapper .customLevelOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectorWrapper .customLevelOption button {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777185;
+  padding: 0;
+}
+.selectorWrapper .customLevelOption button:hover,
+.selectorWrapper .customLevelOption button:focus {
+  font-weight: bold;
+}
+@media screen and (max-width: 1240px) {
+  .selectorWrapper {
+    left: unset;
+    top: 40px;
+    right: 0;
+  }
+}

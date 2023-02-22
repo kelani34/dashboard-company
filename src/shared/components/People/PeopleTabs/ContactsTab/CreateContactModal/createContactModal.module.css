@@ -1,0 +1,20 @@
+.modalTitle {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #5b476b;
+    text-align: left;
+    flex: 1;
+    padding-left: 16px;
+}
+
+.modalHeader {
+    border-bottom: none!important;
+}
+
+.modalBody {
+    padding-top: 0!important;
+ }

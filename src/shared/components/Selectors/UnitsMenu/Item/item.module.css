@@ -1,0 +1,88 @@
+.itemWrapper {
+  border: none;
+}
+.itemWrapper button {
+  height: 44px !important;
+}
+.itemWrapper .header button {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5b476b;
+  height: 44px !important;
+}
+
+.menuBody {
+  padding: 0;
+}
+.menuBody button {
+  height: 44px !important;
+}
+.currentItem,
+.itemSubOption {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+  color: #5b476b;
+  padding: 0.6em 1.15em 0.6em 1.15em;
+  margin-left: 0 !important;
+  height: 40px !important;
+}
+
+.currentItem {
+  color: #000000;
+}
+
+.currentItem:not(.collapsed) {
+  background-color: transparent;
+  padding: 0.6em 0.75em 0.6em 0.25em;
+  box-shadow: none;
+  flex: 0;
+}
+.currentItem:not(.collapsed):hover {
+  background-color: transparent;
+}
+
+.header:not(.closed) {
+  background-color: #f4e5ff;
+}
+.header:not(.closed) .currentItem::after {
+  transform: rotate(-180deg);
+}
+
+.itemSubOption {
+  display: block;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 0;
+  padding-left: 60px;
+}
+.itemSubOption:hover,
+.header:hover {
+  background-color: #f3f3f6;
+}
+.itemSubOption:focus,
+.header:focus {
+  background-color: #f4e5ff;
+  box-shadow: none !important;
+}
+.currentItem svg {
+  transform: scale(0.65);
+}
+
+.currentItem:hover,
+.currentItem:focus {
+  box-shadow: none !important;
+}
+.noRoomsAlertText {
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  color: #5b476b;
+  padding: 16px;
+}

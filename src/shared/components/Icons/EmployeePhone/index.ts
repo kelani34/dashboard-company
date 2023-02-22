@@ -1,0 +1,1 @@
+export { EmployeePhoneSvg } from './EmployeePhone';

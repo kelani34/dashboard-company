@@ -1,0 +1,15 @@
+.photoBase {
+  width: 98%;
+  height: auto;
+  width: 134px !important;
+  height: 134px !important;
+  border-radius: 8px;
+  margin: 4px 4px 4px 4px;
+}
+.deleteImageIcon {
+  position: absolute;
+  top: -18px;
+  right: -24px;
+  display: none;
+  transition: display 0.2s ease-in-out;
+}

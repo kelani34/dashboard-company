@@ -1,0 +1,1 @@
+export { AppliancesSvg } from './Appliances';

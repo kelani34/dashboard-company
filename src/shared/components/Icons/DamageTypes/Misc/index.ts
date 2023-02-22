@@ -1,0 +1,1 @@
+export { MiscSvg } from './Misc';

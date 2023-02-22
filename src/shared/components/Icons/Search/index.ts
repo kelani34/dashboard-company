@@ -1,0 +1,1 @@
+export { SearchSvg } from './Search';

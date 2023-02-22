@@ -1,0 +1,62 @@
+.modalHeader {
+  padding: 34px 0 12px;
+  margin: 0 1rem;
+  border-bottom: 1px solid #e8e7ed;
+}
+
+.modalTitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b476b;
+  text-align: center;
+  width: 100%;
+}
+
+.modalBody {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+.customFormWrapper {
+  margin-top: 24px;
+}
+
+.customRoomWrapper {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  /*padding: 7px 0 7px 18px;*/
+  border: 0;
+  border-bottom: 1px solid #e8e7ed;
+  transition: 0.2s ease-in-out;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.noPadding {
+  padding: 0;
+}
+.customRoomWrapper:hover {
+  background-color: transparent !important;
+  color: #6d00e6;
+  border-bottom: 1px solid rgba(154, 0, 255, 0.5);
+  transition: 0.2s ease-in-out;
+}
+.customRoomWrapper span {
+  display: flex;
+  align-items: center;
+}
+.customRoomWrapper span svg {
+  margin-right: 16px;
+}
+
+@media (min-width: 576px) {
+  .modalDialog {
+    max-width: 416px;
+  }
+}

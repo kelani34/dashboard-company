@@ -1,0 +1,87 @@
+.formBase {
+    padding-top: 14px;
+    padding-bottom: 40px;
+    width: 365px;
+    margin: 0 auto;
+}
+
+.inputContainer {
+    margin-top: 26px;
+}
+
+.inputContainer:first-child {
+    margin-top: 0!important;
+}
+
+.label {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5b476b;
+    padding-left: 8px;
+}
+
+.validateField {
+    background-image: unset !important;
+    border-color: unset !important;
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    border-radius: unset !important;
+    background-position: unset !important;
+    background-repeat: unset !important;
+    background-size: unset !important;
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.375rem !important;
+    padding-right: 0.75rem !important;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000 !important;
+    padding-left: 8px;
+}
+
+.validField {
+    border-bottom: 1px solid #d2cfda !important;
+}
+
+.invalidField {
+    background-color: #fff0f0;
+    border-bottom: 1px solid #e82828 !important;
+}
+
+.validateField::placeholder {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* Placeholder text color */
+    color: #b3abc6;
+    /* opacity: 1;  */
+    /* Firefox */
+}
+
+.validateField:focus {
+    box-shadow: unset !important;
+    background-color: unset;
+}
+
+.invalidFieldFeedback {
+    background-color: #fff !important;
+    margin-top: 0 !important;
+}
+
+.buttonContainer {
+    padding-top: 32px;
+}
+
+.buttonContainer button {
+    width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+}

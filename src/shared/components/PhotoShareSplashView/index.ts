@@ -1,0 +1,1 @@
+export { PhotoShareSplashView } from './PhotoShareSplashView';

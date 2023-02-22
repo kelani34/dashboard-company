@@ -1,0 +1,1 @@
+export { InaccessiblePlaceholder } from './InaccessiblePlaceholder';

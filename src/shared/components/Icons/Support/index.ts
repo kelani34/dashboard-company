@@ -1,0 +1,1 @@
+export { SupportSvg } from './Support';

@@ -1,0 +1,50 @@
+.noProjectsContent {
+   padding-top: 240px;
+    padding-bottom: 310px;
+}
+
+.projectListWrapper {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5b476b;
+    border-color: #e8e7ed;
+    background-color: #ffffff;
+    margin-top: 24px;
+}
+
+.projectListWrapper thead th:first-child,
+.projectListWrapper tbody td:first-child {
+    padding-left: 72px;
+}
+.projectListWrapper thead th:last-child,
+.projectListWrapper tbody td:last-child {
+    padding-right: 72px;
+}
+.projectListWrapper thead th {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #777185;
+    padding-bottom: 1.2em;
+    border-bottom-color: #e8e7ed !important;
+}
+.projectListWrapper tbody tr:hover {
+    background-color: #f4e5ff;
+    transition: 0.2s ease-in-out;
+}
+.projectListWrapper tbody td {
+    vertical-align: middle;
+}
+.projectListWrapper p {
+    margin-bottom: 0;
+}
+.noProjectsText {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B3ABC6;
+}

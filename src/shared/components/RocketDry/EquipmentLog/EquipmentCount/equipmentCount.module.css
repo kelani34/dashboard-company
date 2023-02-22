@@ -1,0 +1,46 @@
+.itemCountContainer {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  line-height: 21px;
+  width: 305px;
+  height: 56px;
+}
+
+.equipmentInfo {
+  display: flex;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.equipmentIcon, .equipmentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.equipmentText {
+  margin-left: 8px;
+}
+
+.typeLabel {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.type {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.count {
+  font-weight: 600;
+  font-size: 16px;
+  color: #777185;
+  display: flex;
+  align-self: center;
+  margin-right: 40px;
+}

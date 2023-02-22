@@ -1,0 +1,19 @@
+.dropDownItemText {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    padding: 16px 0;
+    border-bottom: 1px solid #E8E7ED;
+    text-align: center;
+}
+
+.dropDownItemText:hover {
+    background-color: #E8E7ED !important;
+}
+
+.dropDownItemTextSelected {
+    background-color: #F4E5FF !important;
+}

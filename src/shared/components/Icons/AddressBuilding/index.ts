@@ -1,0 +1,1 @@
+export { AddressBuildingSvg } from './AddressBuilding';

@@ -1,0 +1,25 @@
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkboxIcon {
+    margin-right: 16px;
+    align-self: center;
+}
+
+.editIcon {
+    margin-right: 2px;
+    z-index: 100;
+}
+
+.editing {
+  border-bottom: 1px solid #d2cfda;
+  padding: 0px 13px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.errorBackground form {
+  background-color: #FFF0F0;
+}

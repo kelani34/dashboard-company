@@ -1,0 +1,19 @@
+.photoBase {
+  width: 107px !important;
+  height: 107px !important;
+  border-radius: 8px;
+  margin: 0 3px 3px 0;
+}
+
+@media screen and (min-width: 376px) {
+  .photoBase {
+    margin: 6px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .photoBase {
+    width: 134px !important;
+    height: 134px !important;
+  }
+}

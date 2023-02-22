@@ -1,0 +1,1 @@
+export { LossDataDamageTypeButton } from './LossDataDamageTypeButton';

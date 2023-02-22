@@ -1,0 +1,1 @@
+export { FireSvg } from './Fire';

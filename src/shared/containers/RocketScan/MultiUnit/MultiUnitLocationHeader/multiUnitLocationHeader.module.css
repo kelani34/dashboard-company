@@ -1,0 +1,20 @@
+.locationHeader {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D00E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editBar {
+    display: flex;
+    align-items: center;
+}
+
+.deleteIcon {
+    margin-left: 16px;
+}

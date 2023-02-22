@@ -1,0 +1,1 @@
+export { DamagedMaterialScope } from './DamagedMaterialScope';
